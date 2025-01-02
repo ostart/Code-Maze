@@ -3,13 +3,13 @@
     {
       "UpstreamPathTemplate": "/login",
       "UpstreamHttpMethod": [ "Post" ],
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamPathTemplate": "/login",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8003
+          "Host": "auth-clusterip-service",
+          "Port": 8080
         }
       ]
     },
@@ -17,12 +17,12 @@
       "UpstreamPathTemplate": "/product/{id}",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8002
+          "Host": "product-clusterip-service",
+          "Port": 8080
         }
       ]
     },
@@ -30,12 +30,12 @@
       "UpstreamPathTemplate": "/product/{everything}",
       "UpstreamHttpMethod": [ "Post", "Put" ],
       "DownstreamPathTemplate": "/{everything}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8002
+          "Host": "product-clusterip-service",
+          "Port": 8080
         }
       ],
       "AuthenticationOptions": {
@@ -49,12 +49,12 @@
       "UpstreamPathTemplate": "/order/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post" ],
       "DownstreamPathTemplate": "/{everything}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8001
+          "Host": "order-clusterip-service",
+          "Port": 8080
         }
       ],
       "AuthenticationOptions": {
@@ -68,12 +68,12 @@
       "UpstreamPathTemplate": "/basket/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
       "DownstreamPathTemplate": "/{everything}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DangerousAcceptAnyServerCertificateValidator": true,
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8000
+          "Host": "basket-clusterip-service",
+          "Port": 8080
         }
       ],
       "AuthenticationOptions": {
