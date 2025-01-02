@@ -1,0 +1,14 @@
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\bin\Release\net9.0\ECommerce.Shared.deps.json
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\bin\Release\net9.0\ECommerce.Shared.runtimeconfig.json
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\bin\Release\net9.0\ECommerce.Shared.dll
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\bin\Release\net9.0\ECommerce.Shared.pdb
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\obj\Release\net9.0\ECommerce.Shared.csproj.AssemblyReference.cache
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\obj\Release\net9.0\ECommerce.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\obj\Release\net9.0\ECommerce.Shared.AssemblyInfoInputs.cache
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\obj\Release\net9.0\ECommerce.Shared.AssemblyInfo.cs
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\obj\Release\net9.0\ECommerce.Shared.csproj.CoreCompileInputs.cache
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\obj\Release\net9.0\ECommerce.Shared.dll
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\obj\Release\net9.0\refint\ECommerce.Shared.dll
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\obj\Release\net9.0\ECommerce.Shared.pdb
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\obj\Release\net9.0\ECommerce.Shared.genruntimeconfig.cache
+D:\Github\Code-Maze\Microservices in .NET\shared-libs\ECommerce.Shared\obj\Release\net9.0\ref\ECommerce.Shared.dll
