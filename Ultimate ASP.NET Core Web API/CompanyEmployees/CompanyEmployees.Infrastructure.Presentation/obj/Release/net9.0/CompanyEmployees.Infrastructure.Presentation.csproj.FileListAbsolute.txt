@@ -1,0 +1,15 @@
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Release\net9.0\CompanyEmployees.Infrastructure.Presentation.deps.json
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Release\net9.0\CompanyEmployees.Infrastructure.Presentation.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Release\net9.0\CompanyEmployees.Core.Domain.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Release\net9.0\CompanyEmployees.Core.Services.Abstractions.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Release\net9.0\Shared.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Release\net9.0\CompanyEmployees.Infrastructure.Presentation.csproj.AssemblyReference.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Release\net9.0\CompanyEmployees.Infrastructure.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Release\net9.0\CompanyEmployees.Infrastructure.Presentation.AssemblyInfoInputs.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Release\net9.0\CompanyEmployees.Infrastructure.Presentation.AssemblyInfo.cs
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Release\net9.0\CompanyEmployees.Infrastructure.Presentation.csproj.CoreCompileInputs.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Release\net9.0\CompanyE.D134BD47.Up2Date
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Release\net9.0\CompanyEmployees.Infrastructure.Presentation.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Release\net9.0\refint\CompanyEmployees.Infrastructure.Presentation.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Release\net9.0\ref\CompanyEmployees.Infrastructure.Presentation.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Release\net9.0\CompanyEmployees.Infrastructure.Presentation.xml

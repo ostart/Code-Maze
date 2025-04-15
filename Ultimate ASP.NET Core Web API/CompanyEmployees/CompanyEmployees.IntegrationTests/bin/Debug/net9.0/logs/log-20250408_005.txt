@@ -1,0 +1,50 @@
+[07:01:34 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[07:01:34 INFORMATION] Initializing UI Database
+[07:01:34 INFORMATION] Saving healthchecks configuration to database
+[07:01:34 INFORMATION] Saved 1 entities to in-memory store.
+[07:01:34 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:01:35 ERROR] GetHealthReport threw an exception when trying to get report from /health configured with name My Health Checks.
+[07:01:35 INFORMATION] Saved 1 entities to in-memory store.
+[07:01:35 INFORMATION] Saved 2 entities to in-memory store.
+[07:01:35 INFORMATION] Request starting HTTP/1.1 POST http://localhost/api/companies - application/json; charset=utf-8 70
+[07:01:35 WARNING] Failed to determine the https port for redirect.
+[07:01:35 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:01:35 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:01:35 INFORMATION] Executing UnprocessableEntityObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+[07:01:35 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 103.9656ms
+[07:01:35 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:01:35 INFORMATION] Request finished HTTP/1.1 POST http://localhost/api/companies - 422 null application/json; charset=utf-8 208.5977ms
+[07:01:35 INFORMATION] Request starting HTTP/1.1 POST http://localhost/api/companies - application/json; charset=utf-8 4
+[07:01:35 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:01:35 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:01:35 INFORMATION] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[07:01:35 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 3.9334ms
+[07:01:35 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:01:35 INFORMATION] Request finished HTTP/1.1 POST http://localhost/api/companies - 400 null text/plain; charset=utf-8 7.6095ms
+[07:01:35 INFORMATION] Request starting HTTP/1.1 GET http://localhost/api/companies - null null
+[07:01:35 INFORMATION] No cached response available for this request.
+[07:01:35 INFORMATION] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+[07:01:35 INFORMATION] AuthenticationScheme: Bearer was challenged.
+[07:01:35 INFORMATION] The response could not be cached for this request.
+[07:01:35 INFORMATION] Request finished HTTP/1.1 GET http://localhost/api/companies - 401 null null 12.285ms
+[07:01:35 INFORMATION] Request starting HTTP/1.1 POST http://localhost/api/companies - null null
+[07:01:35 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:01:35 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:01:35 INFORMATION] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[07:01:35 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 20.3123ms
+[07:01:35 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:01:35 INFORMATION] Request finished HTTP/1.1 POST http://localhost/api/companies - 415 null application/problem+json; charset=utf-8 22.006ms
+[07:01:35 INFORMATION] Request starting HTTP/1.1 GET http://localhost/api/companies/d9d4c053-49b6-410c-bc78-2d54a9991870 - null null
+[07:01:35 INFORMATION] No cached response available for this request.
+[07:01:35 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:01:35 INFORMATION] Route matched with {action = "GetCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompany(System.Guid, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:01:35 INFORMATION] Executed DbCommand (28ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[07:01:35 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation) in 185.7255ms
+[07:01:35 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:01:35 ERROR] An unhandled exception has occurred while executing the request.
+[07:01:35 ERROR] Something went wrong: The company with id: d9d4c053-49b6-410c-bc78-2d54a9991870 doesn't exist in the database.
+[07:01:35 INFORMATION] Request finished HTTP/1.1 GET http://localhost/api/companies/d9d4c053-49b6-410c-bc78-2d54a9991870 - 404 null application/problem+json 208.2594ms

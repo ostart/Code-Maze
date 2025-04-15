@@ -1,0 +1,112 @@
+[07:57:22 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:57:22 INFORMATION] Now listening on: https://localhost:5001
+[07:57:22 INFORMATION] Now listening on: http://localhost:5000
+[07:57:22 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:57:22 INFORMATION] Hosting environment: Development
+[07:57:22 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[07:57:30 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - null null
+[07:57:30 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:57:30 INFORMATION] Route matched with {action = "GetCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompany(System.Guid, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:57:32 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[07:57:33 INFORMATION] Executed DbCommand (83ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[07:57:34 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1988.1403ms.
+[07:57:34 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.CompanyDto'.
+[07:57:34 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation) in 3283.908ms
+[07:57:34 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:57:34 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 null application/json; charset=utf-8 3618.2997ms
+[07:57:55 INFORMATION] Application is shutting down...
+[08:01:08 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[08:01:09 INFORMATION] Now listening on: https://localhost:5001
+[08:01:09 INFORMATION] Now listening on: http://localhost:5000
+[08:01:09 INFORMATION] Application started. Press Ctrl+C to shut down.
+[08:01:09 INFORMATION] Hosting environment: Development
+[08:01:09 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[08:01:17 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - null null
+[08:01:17 INFORMATION] No cached response available for this request.
+[08:01:17 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation)'
+[08:01:17 INFORMATION] Route matched with {action = "GetCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompany(System.Guid, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[08:01:17 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[08:01:19 INFORMATION] Executed DbCommand (62ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[08:01:19 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1771.2781ms.
+[08:01:19 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.CompanyDto'.
+[08:01:19 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation) in 2152.3788ms
+[08:01:19 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation)'
+[08:01:19 INFORMATION] The response has been cached.
+[08:01:19 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 null application/json; charset=utf-8 2321.9058ms
+[08:01:26 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - null null
+[08:01:26 INFORMATION] Serving response from cache.
+[08:01:26 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 124 application/json; charset=utf-8 8.5006ms
+[08:01:31 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - null null
+[08:01:31 INFORMATION] Serving response from cache.
+[08:01:31 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 124 application/json; charset=utf-8 7.7765ms
+[08:01:38 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - null null
+[08:01:38 INFORMATION] Serving response from cache.
+[08:01:38 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 124 application/json; charset=utf-8 6.8105ms
+[08:02:04 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - null null
+[08:02:04 INFORMATION] Serving response from cache.
+[08:02:04 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 124 application/json; charset=utf-8 4.1224ms
+[08:02:59 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - null null
+[08:02:59 INFORMATION] No cached response available for this request.
+[08:02:59 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation)'
+[08:02:59 INFORMATION] Route matched with {action = "GetCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompany(System.Guid, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[08:02:59 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[08:02:59 INFORMATION] Executed DbCommand (4ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[08:02:59 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 74.7472ms.
+[08:02:59 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.CompanyDto'.
+[08:02:59 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation) in 84.7761ms
+[08:02:59 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation)'
+[08:02:59 INFORMATION] The response has been cached.
+[08:02:59 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 null application/json; charset=utf-8 100.2244ms
+[08:04:38 INFORMATION] Application is shutting down...
+[08:10:30 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[08:10:30 INFORMATION] Now listening on: https://localhost:5001
+[08:10:30 INFORMATION] Now listening on: http://localhost:5000
+[08:10:30 INFORMATION] Application started. Press Ctrl+C to shut down.
+[08:10:30 INFORMATION] Hosting environment: Development
+[08:10:30 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[08:10:33 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - null null
+[08:10:33 INFORMATION] No cached response available for this request.
+[08:10:33 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation)'
+[08:10:33 INFORMATION] Route matched with {action = "GetCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompany(System.Guid, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[08:10:33 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[08:10:35 INFORMATION] Executed DbCommand (53ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[08:10:35 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1891.2201ms.
+[08:10:35 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.CompanyDto'.
+[08:10:35 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation) in 2277.5497ms
+[08:10:35 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Infrastructure.Presentation)'
+[08:10:35 INFORMATION] The response has been cached.
+[08:10:35 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 null application/json; charset=utf-8 2416.5982ms
+[08:10:49 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies - null null
+[08:10:49 INFORMATION] No cached response available for this request.
+[08:10:49 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[08:10:49 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompanies(System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[08:10:49 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[08:10:49 INFORMATION] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[08:10:49 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 92.2435ms.
+[08:10:49 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[08:10:49 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 107.4225ms
+[08:10:49 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[08:10:49 INFORMATION] The response has been cached.
+[08:10:49 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies - 200 null application/json; charset=utf-8 129.4082ms
+[08:10:59 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - null null
+[08:10:59 INFORMATION] Serving response from cache.
+[08:10:59 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 124 application/json; charset=utf-8 6.2861ms
+[08:11:10 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies - null null
+[08:11:10 INFORMATION] Serving response from cache.
+[08:11:10 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies - 200 251 application/json; charset=utf-8 4.4826ms
+[08:12:06 INFORMATION] Application is shutting down...

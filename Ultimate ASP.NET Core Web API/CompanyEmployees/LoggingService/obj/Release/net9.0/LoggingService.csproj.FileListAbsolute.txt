@@ -1,0 +1,10 @@
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\LoggingService\bin\Release\net9.0\LoggingService.deps.json
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\LoggingService\bin\Release\net9.0\LoggingService.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\LoggingService\obj\Release\net9.0\LoggingService.csproj.AssemblyReference.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\LoggingService\obj\Release\net9.0\LoggingService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\LoggingService\obj\Release\net9.0\LoggingService.AssemblyInfoInputs.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\LoggingService\obj\Release\net9.0\LoggingService.AssemblyInfo.cs
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\LoggingService\obj\Release\net9.0\LoggingService.csproj.CoreCompileInputs.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\LoggingService\obj\Release\net9.0\LoggingService.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\LoggingService\obj\Release\net9.0\refint\LoggingService.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\LoggingService\obj\Release\net9.0\ref\LoggingService.dll

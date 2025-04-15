@@ -1,0 +1,114 @@
+[07:30:02 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[07:30:02 INFORMATION] Initializing UI Database
+[07:30:03 INFORMATION] Saving healthchecks configuration to database
+[07:30:03 INFORMATION] Saved 1 entities to in-memory store.
+[07:30:03 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:30:03 ERROR] GetHealthReport threw an exception when trying to get report from /health configured with name My Health Checks.
+[07:30:03 INFORMATION] Saved 1 entities to in-memory store.
+[07:30:03 INFORMATION] Saved 2 entities to in-memory store.
+[07:30:03 INFORMATION] Request starting HTTP/1.1 GET http://localhost/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees?searchTerm=McLeaf - null null
+[07:30:03 WARNING] Failed to determine the https port for redirect.
+[07:30:03 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:30:03 INFORMATION] Route matched with {action = "GetEmployeesForCompany", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeesForCompany(System.Guid, Shared.RequestFeatures.EmployeeParameters, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController (CompanyEmployees.Infrastructure.Presentation).
+[07:30:03 INFORMATION] Executed DbCommand (27ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[07:30:04 INFORMATION] Executed DbCommand (20ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int64), @__p_2='?' (DbType = Int64), @__lowerCaseTerm_3_contains='?' (Size = 30)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND CAST([e].[Age] AS bigint) >= @__p_1 AND CAST([e].[Age] AS bigint) <= @__p_2 AND LOWER([e].[Name]) LIKE @__lowerCaseTerm_3_contains ESCAPE N'\'
+[07:30:04 INFORMATION] Executed DbCommand (6ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int64), @__p_2='?' (DbType = Int64), @__lowerCaseTerm_3_contains='?' (Size = 30), @__p_4='?' (DbType = Int32), @__p_5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Age], [e].[CompanyId], [e].[Name], [e].[Position]
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND CAST([e].[Age] AS bigint) >= @__p_1 AND CAST([e].[Age] AS bigint) <= @__p_2 AND LOWER([e].[Name]) LIKE @__lowerCaseTerm_3_contains ESCAPE N'\'
+ORDER BY [e].[Name]
+OFFSET @__p_4 ROWS FETCH NEXT @__p_5 ROWS ONLY
+[07:30:04 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.Entities.Entity, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[07:30:04 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation) in 961.9913ms
+[07:30:04 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:30:04 INFORMATION] Request finished HTTP/1.1 GET http://localhost/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees?searchTerm=McLeaf - 200 null application/vnd.codemaze.apiroot+json; charset=utf-8 1070.0967ms
+[07:30:04 INFORMATION] Request starting HTTP/1.1 GET http://localhost/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees?minAge=29&maxAge=31 - null null
+[07:30:04 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:30:04 INFORMATION] Route matched with {action = "GetEmployeesForCompany", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeesForCompany(System.Guid, Shared.RequestFeatures.EmployeeParameters, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController (CompanyEmployees.Infrastructure.Presentation).
+[07:30:04 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[07:30:04 INFORMATION] Executed DbCommand (4ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int64), @__p_2='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND CAST([e].[Age] AS bigint) >= @__p_1 AND CAST([e].[Age] AS bigint) <= @__p_2
+[07:30:04 INFORMATION] Executed DbCommand (4ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int64), @__p_2='?' (DbType = Int64), @__p_3='?' (DbType = Int32), @__p_4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Age], [e].[CompanyId], [e].[Name], [e].[Position]
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND CAST([e].[Age] AS bigint) >= @__p_1 AND CAST([e].[Age] AS bigint) <= @__p_2
+ORDER BY [e].[Name]
+OFFSET @__p_3 ROWS FETCH NEXT @__p_4 ROWS ONLY
+[07:30:04 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.Entities.Entity, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[07:30:04 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation) in 73.714ms
+[07:30:04 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:30:04 INFORMATION] Request finished HTTP/1.1 GET http://localhost/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees?minAge=29&maxAge=31 - 200 null application/vnd.codemaze.apiroot+json; charset=utf-8 79.3039ms
+[07:30:04 INFORMATION] Request starting HTTP/1.1 GET http://localhost/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees - null null
+[07:30:04 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:30:04 INFORMATION] Route matched with {action = "GetEmployeesForCompany", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeesForCompany(System.Guid, Shared.RequestFeatures.EmployeeParameters, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController (CompanyEmployees.Infrastructure.Presentation).
+[07:30:04 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[07:30:04 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int64), @__p_2='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND CAST([e].[Age] AS bigint) >= @__p_1 AND CAST([e].[Age] AS bigint) <= @__p_2
+[07:30:04 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int64), @__p_2='?' (DbType = Int64), @__p_3='?' (DbType = Int32), @__p_4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Age], [e].[CompanyId], [e].[Name], [e].[Position]
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND CAST([e].[Age] AS bigint) >= @__p_1 AND CAST([e].[Age] AS bigint) <= @__p_2
+ORDER BY [e].[Name]
+OFFSET @__p_3 ROWS FETCH NEXT @__p_4 ROWS ONLY
+[07:30:04 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.Entities.Entity, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[07:30:04 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation) in 19.4497ms
+[07:30:04 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:30:04 INFORMATION] Request finished HTTP/1.1 GET http://localhost/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees - 200 null application/vnd.codemaze.apiroot+json; charset=utf-8 22.4391ms
+[07:30:04 INFORMATION] Request starting HTTP/1.1 GET http://localhost/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees?orderBy=age%20desc - null null
+[07:30:04 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:30:04 INFORMATION] Route matched with {action = "GetEmployeesForCompany", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeesForCompany(System.Guid, Shared.RequestFeatures.EmployeeParameters, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController (CompanyEmployees.Infrastructure.Presentation).
+[07:30:04 INFORMATION] Executed DbCommand (1ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[07:30:04 INFORMATION] Executed DbCommand (1ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int64), @__p_2='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND CAST([e].[Age] AS bigint) >= @__p_1 AND CAST([e].[Age] AS bigint) <= @__p_2
+[07:30:04 INFORMATION] Executed DbCommand (4ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int64), @__p_2='?' (DbType = Int64), @__p_3='?' (DbType = Int32), @__p_4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Age], [e].[CompanyId], [e].[Name], [e].[Position]
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND CAST([e].[Age] AS bigint) >= @__p_1 AND CAST([e].[Age] AS bigint) <= @__p_2
+ORDER BY [e].[Age] DESC
+OFFSET @__p_3 ROWS FETCH NEXT @__p_4 ROWS ONLY
+[07:30:04 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.Entities.Entity, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[07:30:04 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation) in 17.5567ms
+[07:30:04 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:30:04 INFORMATION] Request finished HTTP/1.1 GET http://localhost/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees?orderBy=age%20desc - 200 null application/vnd.codemaze.apiroot+json; charset=utf-8 18.3573ms
+[07:30:04 INFORMATION] Request starting HTTP/1.1 GET http://localhost/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees?pageNumber=2&pageSize=1 - null null
+[07:30:04 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:30:04 INFORMATION] Route matched with {action = "GetEmployeesForCompany", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeesForCompany(System.Guid, Shared.RequestFeatures.EmployeeParameters, System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController (CompanyEmployees.Infrastructure.Presentation).
+[07:30:04 INFORMATION] Executed DbCommand (1ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[07:30:04 INFORMATION] Executed DbCommand (1ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int64), @__p_2='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND CAST([e].[Age] AS bigint) >= @__p_1 AND CAST([e].[Age] AS bigint) <= @__p_2
+[07:30:04 INFORMATION] Executed DbCommand (4ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int64), @__p_2='?' (DbType = Int64), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Age], [e].[CompanyId], [e].[Name], [e].[Position]
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND CAST([e].[Age] AS bigint) >= @__p_1 AND CAST([e].[Age] AS bigint) <= @__p_2
+ORDER BY [e].[Name]
+OFFSET @__p_3 ROWS FETCH NEXT @__p_3 ROWS ONLY
+[07:30:04 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.Entities.Entity, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[07:30:04 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation) in 13.5488ms
+[07:30:04 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.GetEmployeesForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:30:04 INFORMATION] Request finished HTTP/1.1 GET http://localhost/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees?pageNumber=2&pageSize=1 - 200 null application/vnd.codemaze.apiroot+json; charset=utf-8 14.3509ms

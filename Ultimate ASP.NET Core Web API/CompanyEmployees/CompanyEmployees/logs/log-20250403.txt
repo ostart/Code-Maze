@@ -1,0 +1,1697 @@
+[06:59:21 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[06:59:21 INFORMATION] Initializing UI Database
+[06:59:23 INFORMATION] Saving healthchecks configuration to database
+[06:59:23 INFORMATION] Saved 1 entities to in-memory store.
+[06:59:23 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[06:59:23 INFORMATION] Now listening on: https://localhost:5001
+[06:59:23 INFORMATION] Now listening on: http://localhost:5000
+[06:59:24 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[06:59:24 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[06:59:24 INFORMATION] Application started. Press Ctrl+C to shut down.
+[06:59:24 INFORMATION] Hosting environment: Development
+[06:59:24 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[06:59:24 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[06:59:24 INFORMATION] Executing endpoint 'Health checks'
+[06:59:24 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 3.1982ms with message 'Degraded result from CustomHealthCheck'
+[06:59:24 INFORMATION] Executed endpoint 'Health checks'
+[06:59:24 INFORMATION] Received HTTP response headers after 649.0301ms - 200
+[06:59:24 INFORMATION] End processing HTTP request after 667.1346ms - 200
+[06:59:24 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 574.5421ms
+[06:59:24 INFORMATION] Saved 1 entities to in-memory store.
+[06:59:25 INFORMATION] Saved 3 entities to in-memory store.
+[06:59:30 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[06:59:30 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[06:59:30 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[06:59:30 INFORMATION] Executing endpoint 'Health checks'
+[06:59:30 INFORMATION] Executed endpoint 'Health checks'
+[06:59:30 INFORMATION] Received HTTP response headers after 33.8831ms - 200
+[06:59:30 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 32.183ms
+[06:59:30 INFORMATION] End processing HTTP request after 44.294ms - 200
+[06:59:30 INFORMATION] Saved 1 entities to in-memory store.
+[06:59:30 INFORMATION] Saved 4 entities to in-memory store.
+[06:59:35 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[06:59:35 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[06:59:35 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[06:59:35 INFORMATION] Executing endpoint 'Health checks'
+[06:59:35 INFORMATION] Executed endpoint 'Health checks'
+[06:59:35 INFORMATION] Received HTTP response headers after 29.5797ms - 200
+[06:59:35 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 35.6752ms
+[06:59:35 INFORMATION] End processing HTTP request after 45.5689ms - 200
+[06:59:35 INFORMATION] Saved 3 entities to in-memory store.
+[06:59:39 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null
+[06:59:39 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 237.6033ms
+[06:59:39 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - null null
+[06:59:39 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - 404 0 null 6.9193ms
+[06:59:39 INFORMATION] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/favicon.ico, Response status code: 404
+[06:59:40 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[06:59:40 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[06:59:40 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[06:59:40 INFORMATION] Executing endpoint 'Health checks'
+[06:59:40 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0141ms with message 'Unhealthy result from CustomHealthCheck'
+[06:59:40 INFORMATION] Executed endpoint 'Health checks'
+[06:59:40 INFORMATION] Received HTTP response headers after 19.4963ms - 503
+[06:59:40 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 19.0163ms
+[06:59:40 INFORMATION] End processing HTTP request after 26.2076ms - 503
+[06:59:40 INFORMATION] Saved 1 entities to in-memory store.
+[06:59:40 INFORMATION] Saved 4 entities to in-memory store.
+[06:59:45 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[06:59:45 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[06:59:45 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[06:59:45 INFORMATION] Executing endpoint 'Health checks'
+[06:59:45 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.01ms with message 'Degraded result from CustomHealthCheck'
+[06:59:45 INFORMATION] Executed endpoint 'Health checks'
+[06:59:45 INFORMATION] Received HTTP response headers after 21.7543ms - 200
+[06:59:45 INFORMATION] End processing HTTP request after 34.2708ms - 200
+[06:59:45 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 23.0311ms
+[06:59:45 INFORMATION] Notification is sent on same window time.
+[06:59:45 INFORMATION] Saved 4 entities to in-memory store.
+[06:59:50 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[06:59:50 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[06:59:50 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[06:59:50 INFORMATION] Executing endpoint 'Health checks'
+[06:59:50 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0106ms with message 'Degraded result from CustomHealthCheck'
+[06:59:50 INFORMATION] Executed endpoint 'Health checks'
+[06:59:50 INFORMATION] Received HTTP response headers after 9.3461ms - 200
+[06:59:50 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 10.8194ms
+[06:59:50 INFORMATION] End processing HTTP request after 16.4908ms - 200
+[06:59:50 INFORMATION] Notification is sent on same window time.
+[06:59:50 INFORMATION] Saved 3 entities to in-memory store.
+[06:59:55 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[06:59:55 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[06:59:55 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[06:59:55 INFORMATION] Executing endpoint 'Health checks'
+[06:59:55 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0082ms with message 'Degraded result from CustomHealthCheck'
+[06:59:55 INFORMATION] Executed endpoint 'Health checks'
+[06:59:55 INFORMATION] Received HTTP response headers after 11.7115ms - 200
+[06:59:55 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 13.0659ms
+[06:59:55 INFORMATION] End processing HTTP request after 19.7692ms - 200
+[06:59:55 INFORMATION] Notification is sent on same window time.
+[06:59:55 INFORMATION] Saved 3 entities to in-memory store.
+[07:00:00 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:00 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:00 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:00 INFORMATION] Executing endpoint 'Health checks'
+[07:00:00 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0067ms with message 'Degraded result from CustomHealthCheck'
+[07:00:00 INFORMATION] Executed endpoint 'Health checks'
+[07:00:00 INFORMATION] Received HTTP response headers after 8.8199ms - 200
+[07:00:00 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 10.8276ms
+[07:00:00 INFORMATION] End processing HTTP request after 16.505ms - 200
+[07:00:00 INFORMATION] Notification is sent on same window time.
+[07:00:00 INFORMATION] Saved 3 entities to in-memory store.
+[07:00:05 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:05 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:05 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:05 INFORMATION] Executing endpoint 'Health checks'
+[07:00:05 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0083ms with message 'Unhealthy result from CustomHealthCheck'
+[07:00:05 INFORMATION] Executed endpoint 'Health checks'
+[07:00:05 INFORMATION] Received HTTP response headers after 6.763ms - 503
+[07:00:05 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 7.3607ms
+[07:00:05 INFORMATION] End processing HTTP request after 15.6449ms - 503
+[07:00:05 INFORMATION] Notification is sent on same window time.
+[07:00:05 INFORMATION] Saved 4 entities to in-memory store.
+[07:00:07 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/v2/swagger.json - null null
+[07:00:07 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/v2/swagger.json - 200 null application/json;charset=utf-8 13.8252ms
+[07:00:10 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:10 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:10 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:10 INFORMATION] Executing endpoint 'Health checks'
+[07:00:10 INFORMATION] Executed endpoint 'Health checks'
+[07:00:10 INFORMATION] Received HTTP response headers after 6.2662ms - 200
+[07:00:10 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.2098ms
+[07:00:10 INFORMATION] End processing HTTP request after 12.0914ms - 200
+[07:00:10 INFORMATION] Saved 1 entities to in-memory store.
+[07:00:10 INFORMATION] Saved 4 entities to in-memory store.
+[07:00:13 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null
+[07:00:13 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.7852ms
+[07:00:15 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:15 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:15 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:15 INFORMATION] Executing endpoint 'Health checks'
+[07:00:15 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0107ms with message 'Unhealthy result from CustomHealthCheck'
+[07:00:15 INFORMATION] Executed endpoint 'Health checks'
+[07:00:15 INFORMATION] Received HTTP response headers after 8.2646ms - 503
+[07:00:15 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 9.2901ms
+[07:00:15 INFORMATION] End processing HTTP request after 14.8741ms - 503
+[07:00:15 INFORMATION] Saved 1 entities to in-memory store.
+[07:00:15 INFORMATION] Saved 4 entities to in-memory store.
+[07:00:20 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:20 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:20 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:20 INFORMATION] Executing endpoint 'Health checks'
+[07:00:20 INFORMATION] Executed endpoint 'Health checks'
+[07:00:20 INFORMATION] Received HTTP response headers after 17.4047ms - 200
+[07:00:20 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 19.889ms
+[07:00:20 INFORMATION] End processing HTTP request after 43.6134ms - 200
+[07:00:20 INFORMATION] Saved 1 entities to in-memory store.
+[07:00:20 INFORMATION] Saved 4 entities to in-memory store.
+[07:00:25 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:25 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:25 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:25 INFORMATION] Executing endpoint 'Health checks'
+[07:00:25 INFORMATION] Executed endpoint 'Health checks'
+[07:00:25 INFORMATION] Received HTTP response headers after 6.4572ms - 200
+[07:00:25 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.2308ms
+[07:00:25 INFORMATION] End processing HTTP request after 12.1085ms - 200
+[07:00:25 INFORMATION] Saved 3 entities to in-memory store.
+[07:00:27 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null
+[07:00:27 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 80.053ms
+[07:00:27 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - null null
+[07:00:27 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/index.css - null null
+[07:00:27 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - null null
+[07:00:27 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - null null
+[07:00:27 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/index.js - null null
+[07:00:27 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/index.js - 200 null application/javascript;charset=utf-8 24.3798ms
+[07:00:27 INFORMATION] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+[07:00:27 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/index.css - 200 202 text/css 33.6995ms
+[07:00:27 INFORMATION] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[07:00:27 INFORMATION] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[07:00:27 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 49.4768ms
+[07:00:27 INFORMATION] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[07:00:27 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - 200 152035 text/css 51.9819ms
+[07:00:27 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - 200 1426001 text/javascript 60.8516ms
+[07:00:27 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - null null
+[07:00:27 INFORMATION] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[07:00:27 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - 200 628 image/png 5.6295ms
+[07:00:27 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null
+[07:00:27 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.5316ms
+[07:00:30 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:30 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:30 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:30 INFORMATION] Executing endpoint 'Health checks'
+[07:00:30 INFORMATION] Executed endpoint 'Health checks'
+[07:00:30 INFORMATION] Received HTTP response headers after 11.1537ms - 200
+[07:00:30 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 13.3602ms
+[07:00:30 INFORMATION] End processing HTTP request after 18.4517ms - 200
+[07:00:30 INFORMATION] Saved 3 entities to in-memory store.
+[07:00:31 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/v2/swagger.json - null null
+[07:00:31 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/v2/swagger.json - 200 null application/json;charset=utf-8 7.8072ms
+[07:00:34 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null
+[07:00:34 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.6421ms
+[07:00:35 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:35 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:35 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:35 INFORMATION] Executing endpoint 'Health checks'
+[07:00:35 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0065ms with message 'Degraded result from CustomHealthCheck'
+[07:00:35 INFORMATION] Executed endpoint 'Health checks'
+[07:00:35 INFORMATION] Received HTTP response headers after 6.5088ms - 200
+[07:00:35 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.6522ms
+[07:00:35 INFORMATION] End processing HTTP request after 13.2128ms - 200
+[07:00:35 INFORMATION] Saved 1 entities to in-memory store.
+[07:00:35 INFORMATION] Saved 4 entities to in-memory store.
+[07:00:36 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/v2/swagger.json - null null
+[07:00:36 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/v2/swagger.json - 200 null application/json;charset=utf-8 5.305ms
+[07:00:40 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:40 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:40 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:40 INFORMATION] Executing endpoint 'Health checks'
+[07:00:40 INFORMATION] Executed endpoint 'Health checks'
+[07:00:40 INFORMATION] Received HTTP response headers after 5.5403ms - 200
+[07:00:40 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.6523ms
+[07:00:40 INFORMATION] End processing HTTP request after 13.3641ms - 200
+[07:00:40 INFORMATION] Saved 1 entities to in-memory store.
+[07:00:40 INFORMATION] Saved 4 entities to in-memory store.
+[07:00:41 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null
+[07:00:41 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.4353ms
+[07:00:45 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:45 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:45 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:45 INFORMATION] Executing endpoint 'Health checks'
+[07:00:45 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0167ms with message 'Unhealthy result from CustomHealthCheck'
+[07:00:45 INFORMATION] Executed endpoint 'Health checks'
+[07:00:45 INFORMATION] Received HTTP response headers after 19.3811ms - 503
+[07:00:45 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 26.9483ms
+[07:00:45 INFORMATION] End processing HTTP request after 38.3539ms - 503
+[07:00:45 INFORMATION] Saved 1 entities to in-memory store.
+[07:00:45 INFORMATION] Saved 4 entities to in-memory store.
+[07:00:50 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:50 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:50 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:50 INFORMATION] Executing endpoint 'Health checks'
+[07:00:50 INFORMATION] Executed endpoint 'Health checks'
+[07:00:50 INFORMATION] Received HTTP response headers after 5.7642ms - 200
+[07:00:50 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.1042ms
+[07:00:50 INFORMATION] End processing HTTP request after 13.6062ms - 200
+[07:00:50 INFORMATION] Saved 1 entities to in-memory store.
+[07:00:50 INFORMATION] Saved 4 entities to in-memory store.
+[07:00:55 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:00:55 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:00:55 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:00:56 INFORMATION] Executing endpoint 'Health checks'
+[07:00:56 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0044ms with message 'Degraded result from CustomHealthCheck'
+[07:00:56 INFORMATION] Executed endpoint 'Health checks'
+[07:00:56 INFORMATION] Received HTTP response headers after 5.4781ms - 200
+[07:00:56 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.6ms
+[07:00:56 INFORMATION] End processing HTTP request after 11.8989ms - 200
+[07:00:56 INFORMATION] Saved 1 entities to in-memory store.
+[07:00:56 INFORMATION] Saved 4 entities to in-memory store.
+[07:01:01 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:01 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:01 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:01 INFORMATION] Executing endpoint 'Health checks'
+[07:01:01 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0055ms with message 'Degraded result from CustomHealthCheck'
+[07:01:01 INFORMATION] Executed endpoint 'Health checks'
+[07:01:01 INFORMATION] Received HTTP response headers after 6.4841ms - 200
+[07:01:01 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.755ms
+[07:01:01 INFORMATION] End processing HTTP request after 12.9808ms - 200
+[07:01:01 INFORMATION] Notification is sent on same window time.
+[07:01:01 INFORMATION] Saved 3 entities to in-memory store.
+[07:01:06 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:06 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:06 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:06 INFORMATION] Executing endpoint 'Health checks'
+[07:01:06 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0697ms with message 'Degraded result from CustomHealthCheck'
+[07:01:06 INFORMATION] Executed endpoint 'Health checks'
+[07:01:06 INFORMATION] Received HTTP response headers after 21.2389ms - 200
+[07:01:06 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 22.685ms
+[07:01:06 INFORMATION] End processing HTTP request after 34.978ms - 200
+[07:01:06 INFORMATION] Notification is sent on same window time.
+[07:01:06 INFORMATION] Saved 3 entities to in-memory store.
+[07:01:11 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:11 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:11 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:11 INFORMATION] Executing endpoint 'Health checks'
+[07:01:11 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.1391ms with message 'Unhealthy result from CustomHealthCheck'
+[07:01:11 INFORMATION] Executed endpoint 'Health checks'
+[07:01:11 INFORMATION] Received HTTP response headers after 5.9314ms - 503
+[07:01:11 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 6.6815ms
+[07:01:11 INFORMATION] End processing HTTP request after 12.6232ms - 503
+[07:01:11 INFORMATION] Notification is sent on same window time.
+[07:01:11 INFORMATION] Saved 4 entities to in-memory store.
+[07:01:16 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:16 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:16 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:16 INFORMATION] Executing endpoint 'Health checks'
+[07:01:16 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0203ms with message 'Degraded result from CustomHealthCheck'
+[07:01:16 INFORMATION] Executed endpoint 'Health checks'
+[07:01:16 INFORMATION] Received HTTP response headers after 38.6006ms - 200
+[07:01:16 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 39.5396ms
+[07:01:16 INFORMATION] End processing HTTP request after 65.3381ms - 200
+[07:01:16 INFORMATION] Notification is sent on same window time.
+[07:01:16 INFORMATION] Saved 4 entities to in-memory store.
+[07:01:21 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:21 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:21 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:21 INFORMATION] Executing endpoint 'Health checks'
+[07:01:21 INFORMATION] Executed endpoint 'Health checks'
+[07:01:21 INFORMATION] Received HTTP response headers after 5.2828ms - 200
+[07:01:21 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.4617ms
+[07:01:21 INFORMATION] End processing HTTP request after 11.8976ms - 200
+[07:01:21 INFORMATION] Saved 1 entities to in-memory store.
+[07:01:21 INFORMATION] Saved 4 entities to in-memory store.
+[07:01:26 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:26 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:26 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:26 INFORMATION] Executing endpoint 'Health checks'
+[07:01:26 INFORMATION] Executed endpoint 'Health checks'
+[07:01:26 INFORMATION] Received HTTP response headers after 41.1739ms - 200
+[07:01:26 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 32.5022ms
+[07:01:26 INFORMATION] End processing HTTP request after 67.8388ms - 200
+[07:01:26 INFORMATION] Saved 3 entities to in-memory store.
+[07:01:31 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:31 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:31 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:31 INFORMATION] Executing endpoint 'Health checks'
+[07:01:31 INFORMATION] Executed endpoint 'Health checks'
+[07:01:31 INFORMATION] Received HTTP response headers after 6.1035ms - 200
+[07:01:31 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 10.2203ms
+[07:01:31 INFORMATION] End processing HTTP request after 20.9624ms - 200
+[07:01:31 INFORMATION] Saved 3 entities to in-memory store.
+[07:01:36 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:36 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:36 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:36 INFORMATION] Executing endpoint 'Health checks'
+[07:01:36 INFORMATION] Executed endpoint 'Health checks'
+[07:01:36 INFORMATION] Received HTTP response headers after 25.8951ms - 200
+[07:01:36 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 30.3513ms
+[07:01:36 INFORMATION] End processing HTTP request after 57.4698ms - 200
+[07:01:36 INFORMATION] Saved 3 entities to in-memory store.
+[07:01:41 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:41 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:41 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:41 INFORMATION] Executing endpoint 'Health checks'
+[07:01:41 INFORMATION] Executed endpoint 'Health checks'
+[07:01:41 INFORMATION] Received HTTP response headers after 22.6212ms - 200
+[07:01:41 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 26.229ms
+[07:01:41 INFORMATION] End processing HTTP request after 49.5281ms - 200
+[07:01:41 INFORMATION] Saved 3 entities to in-memory store.
+[07:01:46 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:46 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:46 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:46 INFORMATION] Executing endpoint 'Health checks'
+[07:01:46 INFORMATION] Executed endpoint 'Health checks'
+[07:01:46 INFORMATION] Received HTTP response headers after 26.8083ms - 200
+[07:01:46 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 31.8865ms
+[07:01:46 INFORMATION] End processing HTTP request after 48.9914ms - 200
+[07:01:46 INFORMATION] Saved 3 entities to in-memory store.
+[07:01:51 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:51 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:51 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:51 INFORMATION] Executing endpoint 'Health checks'
+[07:01:51 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0047ms with message 'Degraded result from CustomHealthCheck'
+[07:01:51 INFORMATION] Executed endpoint 'Health checks'
+[07:01:51 INFORMATION] Received HTTP response headers after 13.0518ms - 200
+[07:01:51 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 14.7887ms
+[07:01:51 INFORMATION] End processing HTTP request after 24.6496ms - 200
+[07:01:51 INFORMATION] Saved 1 entities to in-memory store.
+[07:01:51 INFORMATION] Saved 4 entities to in-memory store.
+[07:01:56 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:01:56 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:01:56 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:01:56 INFORMATION] Executing endpoint 'Health checks'
+[07:01:56 INFORMATION] Executed endpoint 'Health checks'
+[07:01:56 INFORMATION] Received HTTP response headers after 5.958ms - 200
+[07:01:56 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.7651ms
+[07:01:56 INFORMATION] End processing HTTP request after 11.9136ms - 200
+[07:01:56 INFORMATION] Saved 1 entities to in-memory store.
+[07:01:56 INFORMATION] Saved 4 entities to in-memory store.
+[07:02:01 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:01 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:01 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:01 INFORMATION] Executing endpoint 'Health checks'
+[07:02:01 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0088ms with message 'Degraded result from CustomHealthCheck'
+[07:02:01 INFORMATION] Executed endpoint 'Health checks'
+[07:02:01 INFORMATION] Received HTTP response headers after 6.2689ms - 200
+[07:02:01 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.7578ms
+[07:02:01 INFORMATION] End processing HTTP request after 14.0247ms - 200
+[07:02:01 INFORMATION] Saved 1 entities to in-memory store.
+[07:02:01 INFORMATION] Saved 4 entities to in-memory store.
+[07:02:06 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:06 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:06 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:06 INFORMATION] Executing endpoint 'Health checks'
+[07:02:06 INFORMATION] Executed endpoint 'Health checks'
+[07:02:06 INFORMATION] Received HTTP response headers after 22.284ms - 200
+[07:02:06 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 28.4342ms
+[07:02:06 INFORMATION] End processing HTTP request after 48.5543ms - 200
+[07:02:06 INFORMATION] Saved 1 entities to in-memory store.
+[07:02:06 INFORMATION] Saved 4 entities to in-memory store.
+[07:02:11 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:11 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:11 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:11 INFORMATION] Executing endpoint 'Health checks'
+[07:02:11 INFORMATION] Executed endpoint 'Health checks'
+[07:02:11 INFORMATION] Received HTTP response headers after 4.9272ms - 200
+[07:02:11 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.2511ms
+[07:02:11 INFORMATION] End processing HTTP request after 11.6765ms - 200
+[07:02:11 INFORMATION] Saved 3 entities to in-memory store.
+[07:02:15 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies - null null
+[07:02:15 INFORMATION] No cached response available for this request.
+[07:02:15 INFORMATION] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+[07:02:15 INFORMATION] AuthenticationScheme: Bearer was challenged.
+[07:02:15 INFORMATION] The response could not be cached for this request.
+[07:02:15 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies - 401 0 null 38.9476ms
+[07:02:16 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:16 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:16 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:16 INFORMATION] Executing endpoint 'Health checks'
+[07:02:16 INFORMATION] Executed endpoint 'Health checks'
+[07:02:16 INFORMATION] Received HTTP response headers after 15.0683ms - 200
+[07:02:16 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 19.7827ms
+[07:02:16 INFORMATION] End processing HTTP request after 33.8512ms - 200
+[07:02:16 INFORMATION] Saved 3 entities to in-memory store.
+[07:02:21 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:21 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:21 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:21 INFORMATION] Executing endpoint 'Health checks'
+[07:02:21 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0184ms with message 'Unhealthy result from CustomHealthCheck'
+[07:02:21 INFORMATION] Executed endpoint 'Health checks'
+[07:02:21 INFORMATION] Received HTTP response headers after 37.5941ms - 503
+[07:02:21 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 41.6775ms
+[07:02:21 INFORMATION] End processing HTTP request after 66.594ms - 503
+[07:02:21 INFORMATION] Saved 1 entities to in-memory store.
+[07:02:21 INFORMATION] Saved 4 entities to in-memory store.
+[07:02:26 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:26 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:26 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:26 INFORMATION] Executing endpoint 'Health checks'
+[07:02:26 INFORMATION] Executed endpoint 'Health checks'
+[07:02:26 INFORMATION] Received HTTP response headers after 5.4182ms - 200
+[07:02:26 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.1768ms
+[07:02:26 INFORMATION] End processing HTTP request after 10.5748ms - 200
+[07:02:26 INFORMATION] Saved 1 entities to in-memory store.
+[07:02:26 INFORMATION] Saved 4 entities to in-memory store.
+[07:02:31 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:31 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:31 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:31 INFORMATION] Executing endpoint 'Health checks'
+[07:02:31 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0126ms with message 'Degraded result from CustomHealthCheck'
+[07:02:31 INFORMATION] Executed endpoint 'Health checks'
+[07:02:31 INFORMATION] Received HTTP response headers after 16.2512ms - 200
+[07:02:31 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 19.5975ms
+[07:02:32 INFORMATION] End processing HTTP request after 30.828ms - 200
+[07:02:32 INFORMATION] Saved 1 entities to in-memory store.
+[07:02:32 INFORMATION] Saved 4 entities to in-memory store.
+[07:02:37 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:37 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:37 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:37 INFORMATION] Executing endpoint 'Health checks'
+[07:02:37 INFORMATION] Executed endpoint 'Health checks'
+[07:02:37 INFORMATION] Received HTTP response headers after 5.4937ms - 200
+[07:02:37 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.2083ms
+[07:02:37 INFORMATION] End processing HTTP request after 13.0049ms - 200
+[07:02:37 INFORMATION] Saved 1 entities to in-memory store.
+[07:02:37 INFORMATION] Saved 4 entities to in-memory store.
+[07:02:42 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:42 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:42 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:42 INFORMATION] Executing endpoint 'Health checks'
+[07:02:42 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0131ms with message 'Degraded result from CustomHealthCheck'
+[07:02:42 INFORMATION] Executed endpoint 'Health checks'
+[07:02:42 INFORMATION] Received HTTP response headers after 25.6172ms - 200
+[07:02:42 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 29.4887ms
+[07:02:42 INFORMATION] End processing HTTP request after 46.9998ms - 200
+[07:02:42 INFORMATION] Saved 1 entities to in-memory store.
+[07:02:42 INFORMATION] Saved 4 entities to in-memory store.
+[07:02:47 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:47 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:47 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:47 INFORMATION] Executing endpoint 'Health checks'
+[07:02:47 INFORMATION] Executed endpoint 'Health checks'
+[07:02:47 INFORMATION] Received HTTP response headers after 5.8849ms - 200
+[07:02:47 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.6295ms
+[07:02:47 INFORMATION] End processing HTTP request after 13.9883ms - 200
+[07:02:47 INFORMATION] Saved 1 entities to in-memory store.
+[07:02:47 INFORMATION] Saved 4 entities to in-memory store.
+[07:02:52 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:52 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:52 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:52 INFORMATION] Executing endpoint 'Health checks'
+[07:02:52 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0048ms with message 'Unhealthy result from CustomHealthCheck'
+[07:02:52 INFORMATION] Executed endpoint 'Health checks'
+[07:02:52 INFORMATION] Received HTTP response headers after 8.1152ms - 503
+[07:02:52 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 8.9712ms
+[07:02:52 INFORMATION] End processing HTTP request after 13.0255ms - 503
+[07:02:52 INFORMATION] Saved 1 entities to in-memory store.
+[07:02:52 INFORMATION] Saved 4 entities to in-memory store.
+[07:02:57 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:02:57 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:02:57 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:02:57 INFORMATION] Executing endpoint 'Health checks'
+[07:02:57 INFORMATION] Executed endpoint 'Health checks'
+[07:02:57 INFORMATION] Received HTTP response headers after 7.1163ms - 200
+[07:02:57 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.9962ms
+[07:02:57 INFORMATION] End processing HTTP request after 12.9261ms - 200
+[07:02:57 INFORMATION] Saved 1 entities to in-memory store.
+[07:02:57 INFORMATION] Saved 4 entities to in-memory store.
+[07:03:02 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:03:02 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:03:02 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:03:02 INFORMATION] Executing endpoint 'Health checks'
+[07:03:02 INFORMATION] Executed endpoint 'Health checks'
+[07:03:02 INFORMATION] Received HTTP response headers after 33.9327ms - 200
+[07:03:02 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 37.3668ms
+[07:03:02 INFORMATION] End processing HTTP request after 61.3386ms - 200
+[07:03:02 INFORMATION] Saved 3 entities to in-memory store.
+[07:03:07 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:03:07 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:03:07 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:03:07 INFORMATION] Executing endpoint 'Health checks'
+[07:03:07 INFORMATION] Executed endpoint 'Health checks'
+[07:03:07 INFORMATION] Received HTTP response headers after 5.3482ms - 200
+[07:03:07 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.4262ms
+[07:03:07 INFORMATION] End processing HTTP request after 13.6933ms - 200
+[07:03:07 INFORMATION] Saved 3 entities to in-memory store.
+[07:03:12 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:03:12 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:03:12 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:03:12 INFORMATION] Executing endpoint 'Health checks'
+[07:03:12 INFORMATION] Executed endpoint 'Health checks'
+[07:03:12 INFORMATION] Received HTTP response headers after 33.7341ms - 200
+[07:03:12 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 41.7011ms
+[07:03:12 INFORMATION] End processing HTTP request after 72.4632ms - 200
+[07:03:12 INFORMATION] Saved 3 entities to in-memory store.
+[07:03:17 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:03:17 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:03:17 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:03:17 INFORMATION] Executing endpoint 'Health checks'
+[07:03:17 INFORMATION] Executed endpoint 'Health checks'
+[07:03:17 INFORMATION] Received HTTP response headers after 27.1813ms - 200
+[07:03:17 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 31.632ms
+[07:03:17 INFORMATION] End processing HTTP request after 55.7566ms - 200
+[07:03:17 INFORMATION] Saved 3 entities to in-memory store.
+[07:03:21 INFORMATION] Application is shutting down...
+[07:04:16 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[07:04:16 INFORMATION] Initializing UI Database
+[07:04:17 INFORMATION] Saving healthchecks configuration to database
+[07:04:17 INFORMATION] Saved 1 entities to in-memory store.
+[07:04:17 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:04:17 INFORMATION] Now listening on: https://localhost:5001
+[07:04:17 INFORMATION] Now listening on: http://localhost:5000
+[07:04:18 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:04:18 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:04:18 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:04:18 INFORMATION] Hosting environment: Development
+[07:04:18 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[07:04:18 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:04:18 INFORMATION] Executing endpoint 'Health checks'
+[07:04:18 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 3.2029ms with message 'Degraded result from CustomHealthCheck'
+[07:04:18 INFORMATION] Executed endpoint 'Health checks'
+[07:04:18 INFORMATION] Received HTTP response headers after 554.6342ms - 200
+[07:04:18 INFORMATION] End processing HTTP request after 571.9295ms - 200
+[07:04:18 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 497.4644ms
+[07:04:18 INFORMATION] Saved 1 entities to in-memory store.
+[07:04:18 INFORMATION] Saved 3 entities to in-memory store.
+[07:04:23 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html?urls.primaryName=Code+Maze+API+v1 - null null
+[07:04:23 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html?urls.primaryName=Code+Maze+API+v1 - 200 null text/html;charset=utf-8 83.1137ms
+[07:04:23 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/index.js - null null
+[07:04:23 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/index.js - 200 null application/javascript;charset=utf-8 9.6004ms
+[07:04:23 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null
+[07:04:23 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 169.224ms
+[07:04:23 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:04:23 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:04:23 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:04:23 INFORMATION] Executing endpoint 'Health checks'
+[07:04:23 INFORMATION] Executed endpoint 'Health checks'
+[07:04:23 INFORMATION] Received HTTP response headers after 12.9941ms - 200
+[07:04:23 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 14.5779ms
+[07:04:23 INFORMATION] End processing HTTP request after 19.5392ms - 200
+[07:04:24 INFORMATION] Saved 1 entities to in-memory store.
+[07:04:24 INFORMATION] Saved 4 entities to in-memory store.
+[07:04:29 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:04:29 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:04:29 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:04:29 INFORMATION] Executing endpoint 'Health checks'
+[07:04:29 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.009ms with message 'Unhealthy result from CustomHealthCheck'
+[07:04:29 INFORMATION] Executed endpoint 'Health checks'
+[07:04:29 INFORMATION] Received HTTP response headers after 6.3953ms - 503
+[07:04:29 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 7.0248ms
+[07:04:29 INFORMATION] End processing HTTP request after 13.8691ms - 503
+[07:04:29 INFORMATION] Saved 1 entities to in-memory store.
+[07:04:29 INFORMATION] Saved 4 entities to in-memory store.
+[07:04:34 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:04:34 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:04:34 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:04:34 INFORMATION] Executing endpoint 'Health checks'
+[07:04:34 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0057ms with message 'Degraded result from CustomHealthCheck'
+[07:04:34 INFORMATION] Executed endpoint 'Health checks'
+[07:04:34 INFORMATION] Received HTTP response headers after 8.0084ms - 200
+[07:04:34 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 8.2384ms
+[07:04:34 INFORMATION] End processing HTTP request after 14.8906ms - 200
+[07:04:34 INFORMATION] Notification is sent on same window time.
+[07:04:34 INFORMATION] Saved 4 entities to in-memory store.
+[07:04:39 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:04:39 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:04:39 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:04:39 INFORMATION] Executing endpoint 'Health checks'
+[07:04:39 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0054ms with message 'Unhealthy result from CustomHealthCheck'
+[07:04:39 INFORMATION] Executed endpoint 'Health checks'
+[07:04:39 INFORMATION] Received HTTP response headers after 6.7716ms - 503
+[07:04:39 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 7.3055ms
+[07:04:39 INFORMATION] End processing HTTP request after 12.4372ms - 503
+[07:04:39 INFORMATION] Notification is sent on same window time.
+[07:04:39 INFORMATION] Saved 4 entities to in-memory store.
+[07:04:44 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:04:44 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:04:44 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:04:44 INFORMATION] Executing endpoint 'Health checks'
+[07:04:44 INFORMATION] Executed endpoint 'Health checks'
+[07:04:44 INFORMATION] Received HTTP response headers after 14.8724ms - 200
+[07:04:44 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 17.3786ms
+[07:04:44 INFORMATION] End processing HTTP request after 41.5914ms - 200
+[07:04:44 INFORMATION] Saved 1 entities to in-memory store.
+[07:04:44 INFORMATION] Saved 4 entities to in-memory store.
+[07:04:49 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:04:49 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:04:49 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:04:49 INFORMATION] Executing endpoint 'Health checks'
+[07:04:49 INFORMATION] Executed endpoint 'Health checks'
+[07:04:49 INFORMATION] Received HTTP response headers after 7.8193ms - 200
+[07:04:49 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 8.6989ms
+[07:04:49 INFORMATION] End processing HTTP request after 13.1813ms - 200
+[07:04:49 INFORMATION] Saved 3 entities to in-memory store.
+[07:04:54 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:04:54 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:04:54 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:04:54 INFORMATION] Executing endpoint 'Health checks'
+[07:04:54 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0084ms with message 'Unhealthy result from CustomHealthCheck'
+[07:04:54 INFORMATION] Executed endpoint 'Health checks'
+[07:04:54 INFORMATION] Received HTTP response headers after 27.8941ms - 503
+[07:04:54 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 28.1921ms
+[07:04:54 INFORMATION] End processing HTTP request after 50.685ms - 503
+[07:04:54 INFORMATION] Saved 1 entities to in-memory store.
+[07:04:54 INFORMATION] Saved 4 entities to in-memory store.
+[07:04:59 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:04:59 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:04:59 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:04:59 INFORMATION] Executing endpoint 'Health checks'
+[07:04:59 INFORMATION] Executed endpoint 'Health checks'
+[07:04:59 INFORMATION] Received HTTP response headers after 15.8657ms - 200
+[07:04:59 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 19.913ms
+[07:04:59 INFORMATION] End processing HTTP request after 33.0502ms - 200
+[07:04:59 INFORMATION] Saved 1 entities to in-memory store.
+[07:04:59 INFORMATION] Saved 4 entities to in-memory store.
+[07:05:04 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:04 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:04 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:04 INFORMATION] Executing endpoint 'Health checks'
+[07:05:04 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0092ms with message 'Unhealthy result from CustomHealthCheck'
+[07:05:04 INFORMATION] Executed endpoint 'Health checks'
+[07:05:04 INFORMATION] Received HTTP response headers after 7.3324ms - 503
+[07:05:04 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 9.3121ms
+[07:05:04 INFORMATION] End processing HTTP request after 14.8395ms - 503
+[07:05:04 INFORMATION] Saved 1 entities to in-memory store.
+[07:05:04 INFORMATION] Saved 4 entities to in-memory store.
+[07:05:09 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:09 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:09 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:09 INFORMATION] Executing endpoint 'Health checks'
+[07:05:09 INFORMATION] Executed endpoint 'Health checks'
+[07:05:09 INFORMATION] Received HTTP response headers after 6.1359ms - 200
+[07:05:09 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.1542ms
+[07:05:09 INFORMATION] End processing HTTP request after 13.7968ms - 200
+[07:05:09 INFORMATION] Saved 1 entities to in-memory store.
+[07:05:09 INFORMATION] Saved 4 entities to in-memory store.
+[07:05:14 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:14 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:14 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:14 INFORMATION] Executing endpoint 'Health checks'
+[07:05:14 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0086ms with message 'Degraded result from CustomHealthCheck'
+[07:05:14 INFORMATION] Executed endpoint 'Health checks'
+[07:05:14 INFORMATION] Received HTTP response headers after 12.2199ms - 200
+[07:05:14 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 13.7483ms
+[07:05:14 INFORMATION] End processing HTTP request after 20.3391ms - 200
+[07:05:14 INFORMATION] Saved 1 entities to in-memory store.
+[07:05:14 INFORMATION] Saved 4 entities to in-memory store.
+[07:05:19 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:19 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:19 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:19 INFORMATION] Executing endpoint 'Health checks'
+[07:05:19 INFORMATION] Executed endpoint 'Health checks'
+[07:05:19 INFORMATION] Received HTTP response headers after 6.2038ms - 200
+[07:05:19 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.8892ms
+[07:05:19 INFORMATION] End processing HTTP request after 13.0993ms - 200
+[07:05:19 INFORMATION] Saved 1 entities to in-memory store.
+[07:05:19 INFORMATION] Saved 4 entities to in-memory store.
+[07:05:24 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:24 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:24 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:24 INFORMATION] Executing endpoint 'Health checks'
+[07:05:24 INFORMATION] Executed endpoint 'Health checks'
+[07:05:24 INFORMATION] Received HTTP response headers after 5.6286ms - 200
+[07:05:24 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.3672ms
+[07:05:24 INFORMATION] End processing HTTP request after 12.7254ms - 200
+[07:05:24 INFORMATION] Saved 3 entities to in-memory store.
+[07:05:29 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:29 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:29 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:29 INFORMATION] Executing endpoint 'Health checks'
+[07:05:29 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0066ms with message 'Degraded result from CustomHealthCheck'
+[07:05:29 INFORMATION] Executed endpoint 'Health checks'
+[07:05:29 INFORMATION] Received HTTP response headers after 10.539ms - 200
+[07:05:29 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 11.4019ms
+[07:05:29 INFORMATION] End processing HTTP request after 17.967ms - 200
+[07:05:29 INFORMATION] Saved 1 entities to in-memory store.
+[07:05:29 INFORMATION] Saved 4 entities to in-memory store.
+[07:05:34 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/authentication/login - application/json-patch+json 54
+[07:05:34 INFORMATION] CORS policy execution successful.
+[07:05:34 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[07:05:34 INFORMATION] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Shared.DataTransferObjects.UserForAuthenticationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController (CompanyEmployees.Infrastructure.Presentation).
+[07:05:34 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[07:05:34 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:34 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:34 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:34 INFORMATION] Executing endpoint 'Health checks'
+[07:05:34 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.007ms with message 'Unhealthy result from CustomHealthCheck'
+[07:05:34 INFORMATION] Executed endpoint 'Health checks'
+[07:05:34 INFORMATION] Received HTTP response headers after 6.6827ms - 503
+[07:05:34 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 7.4135ms
+[07:05:34 INFORMATION] End processing HTTP request after 13.5939ms - 503
+[07:05:34 INFORMATION] Notification is sent on same window time.
+[07:05:34 INFORMATION] Saved 4 entities to in-memory store.
+[07:05:35 INFORMATION] Executed DbCommand (48ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[07:05:35 INFORMATION] Executed DbCommand (10ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[07:05:35 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[07:05:35 INFORMATION] Executed DbCommand (4ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[07:05:35 INFORMATION] Executed DbCommand (21ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[07:05:35 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1361.2768ms.
+[07:05:35 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[07:05:35 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) in 1625.3873ms
+[07:05:35 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[07:05:35 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/authentication/login - 200 null application/json; charset=utf-8 1690.0072ms
+[07:05:39 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:39 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:39 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:39 INFORMATION] Executing endpoint 'Health checks'
+[07:05:39 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0062ms with message 'Degraded result from CustomHealthCheck'
+[07:05:39 INFORMATION] Executed endpoint 'Health checks'
+[07:05:39 INFORMATION] Received HTTP response headers after 7.8104ms - 200
+[07:05:39 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 8.9872ms
+[07:05:39 INFORMATION] End processing HTTP request after 14.9773ms - 200
+[07:05:39 INFORMATION] Notification is sent on same window time.
+[07:05:39 INFORMATION] Saved 4 entities to in-memory store.
+[07:05:44 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:44 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:44 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:44 INFORMATION] Executing endpoint 'Health checks'
+[07:05:44 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0046ms with message 'Unhealthy result from CustomHealthCheck'
+[07:05:44 INFORMATION] Executed endpoint 'Health checks'
+[07:05:44 INFORMATION] Received HTTP response headers after 6.0858ms - 503
+[07:05:44 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 7.6638ms
+[07:05:44 INFORMATION] End processing HTTP request after 15.5037ms - 503
+[07:05:44 INFORMATION] Notification is sent on same window time.
+[07:05:44 INFORMATION] Saved 4 entities to in-memory store.
+[07:05:49 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:49 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:49 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:49 INFORMATION] Executing endpoint 'Health checks'
+[07:05:49 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0204ms with message 'Degraded result from CustomHealthCheck'
+[07:05:49 INFORMATION] Executed endpoint 'Health checks'
+[07:05:49 INFORMATION] Received HTTP response headers after 13.7216ms - 200
+[07:05:49 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 15.2258ms
+[07:05:49 INFORMATION] End processing HTTP request after 21.8091ms - 200
+[07:05:49 INFORMATION] Notification is sent on same window time.
+[07:05:49 INFORMATION] Saved 4 entities to in-memory store.
+[07:05:54 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:54 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:54 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:54 INFORMATION] Executing endpoint 'Health checks'
+[07:05:54 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0117ms with message 'Degraded result from CustomHealthCheck'
+[07:05:54 INFORMATION] Executed endpoint 'Health checks'
+[07:05:54 INFORMATION] Received HTTP response headers after 19.9296ms - 200
+[07:05:54 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 23.8023ms
+[07:05:54 INFORMATION] End processing HTTP request after 49.0742ms - 200
+[07:05:54 INFORMATION] Notification is sent on same window time.
+[07:05:54 INFORMATION] Saved 3 entities to in-memory store.
+[07:05:59 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:05:59 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:05:59 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:05:59 INFORMATION] Executing endpoint 'Health checks'
+[07:05:59 INFORMATION] Executed endpoint 'Health checks'
+[07:05:59 INFORMATION] Received HTTP response headers after 8.0054ms - 200
+[07:05:59 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 9.1481ms
+[07:05:59 INFORMATION] End processing HTTP request after 13.9549ms - 200
+[07:05:59 INFORMATION] Saved 1 entities to in-memory store.
+[07:05:59 INFORMATION] Saved 4 entities to in-memory store.
+[07:06:04 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:06:04 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:06:04 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:06:04 INFORMATION] Executing endpoint 'Health checks'
+[07:06:04 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.1872ms with message 'Degraded result from CustomHealthCheck'
+[07:06:04 INFORMATION] Executed endpoint 'Health checks'
+[07:06:04 INFORMATION] Received HTTP response headers after 19.2966ms - 200
+[07:06:04 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 22.246ms
+[07:06:04 INFORMATION] End processing HTTP request after 34.1437ms - 200
+[07:06:04 INFORMATION] Saved 1 entities to in-memory store.
+[07:06:04 INFORMATION] Saved 4 entities to in-memory store.
+[07:06:09 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:06:09 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:06:09 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:06:09 INFORMATION] Executing endpoint 'Health checks'
+[07:06:09 INFORMATION] Executed endpoint 'Health checks'
+[07:06:09 INFORMATION] Received HTTP response headers after 5.927ms - 200
+[07:06:09 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.0779ms
+[07:06:09 INFORMATION] End processing HTTP request after 11.7735ms - 200
+[07:06:09 INFORMATION] Saved 1 entities to in-memory store.
+[07:06:09 INFORMATION] Saved 4 entities to in-memory store.
+[07:06:14 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:06:14 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:06:14 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:06:14 INFORMATION] Executing endpoint 'Health checks'
+[07:06:14 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0181ms with message 'Degraded result from CustomHealthCheck'
+[07:06:14 INFORMATION] Executed endpoint 'Health checks'
+[07:06:14 INFORMATION] Received HTTP response headers after 36.3958ms - 200
+[07:06:14 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 37.673ms
+[07:06:14 INFORMATION] End processing HTTP request after 61.0922ms - 200
+[07:06:14 INFORMATION] Saved 1 entities to in-memory store.
+[07:06:14 INFORMATION] Saved 4 entities to in-memory store.
+[07:06:19 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:06:19 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:06:19 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:06:20 INFORMATION] Executing endpoint 'Health checks'
+[07:06:20 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0127ms with message 'Unhealthy result from CustomHealthCheck'
+[07:06:20 INFORMATION] Executed endpoint 'Health checks'
+[07:06:20 INFORMATION] Received HTTP response headers after 41.6827ms - 503
+[07:06:20 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 35.3841ms
+[07:06:20 INFORMATION] End processing HTTP request after 63.9983ms - 503
+[07:06:20 INFORMATION] Notification is sent on same window time.
+[07:06:20 INFORMATION] Saved 4 entities to in-memory store.
+[07:06:25 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:06:25 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:06:25 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:06:25 INFORMATION] Executing endpoint 'Health checks'
+[07:06:25 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0054ms with message 'Unhealthy result from CustomHealthCheck'
+[07:06:25 INFORMATION] Executed endpoint 'Health checks'
+[07:06:25 INFORMATION] Received HTTP response headers after 6.8503ms - 503
+[07:06:25 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 7.7699ms
+[07:06:25 INFORMATION] End processing HTTP request after 12.8247ms - 503
+[07:06:25 INFORMATION] Notification is sent on same window time.
+[07:06:25 INFORMATION] Saved 3 entities to in-memory store.
+[07:06:28 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies - null null
+[07:06:28 INFORMATION] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+[07:06:28 INFORMATION] AuthenticationScheme: Bearer was forbidden.
+[07:06:28 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies - 403 0 null 74.6424ms
+[07:06:30 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:06:30 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:06:30 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:06:30 INFORMATION] Executing endpoint 'Health checks'
+[07:06:30 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0053ms with message 'Degraded result from CustomHealthCheck'
+[07:06:30 INFORMATION] Executed endpoint 'Health checks'
+[07:06:30 INFORMATION] Received HTTP response headers after 5.9465ms - 200
+[07:06:30 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.9432ms
+[07:06:30 INFORMATION] End processing HTTP request after 12.474ms - 200
+[07:06:30 INFORMATION] Notification is sent on same window time.
+[07:06:30 INFORMATION] Saved 4 entities to in-memory store.
+[07:06:35 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:06:35 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:06:35 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:06:35 INFORMATION] Executing endpoint 'Health checks'
+[07:06:35 INFORMATION] Executed endpoint 'Health checks'
+[07:06:35 INFORMATION] Received HTTP response headers after 28.2617ms - 200
+[07:06:35 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 31.4489ms
+[07:06:35 INFORMATION] End processing HTTP request after 50.7435ms - 200
+[07:06:35 INFORMATION] Saved 1 entities to in-memory store.
+[07:06:35 INFORMATION] Saved 4 entities to in-memory store.
+[07:06:40 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:06:40 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:06:40 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:06:40 INFORMATION] Executing endpoint 'Health checks'
+[07:06:40 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.008ms with message 'Unhealthy result from CustomHealthCheck'
+[07:06:40 INFORMATION] Executed endpoint 'Health checks'
+[07:06:40 INFORMATION] Received HTTP response headers after 23.082ms - 503
+[07:06:40 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 25.9797ms
+[07:06:40 INFORMATION] End processing HTTP request after 49.3069ms - 503
+[07:06:40 INFORMATION] Saved 1 entities to in-memory store.
+[07:06:40 INFORMATION] Saved 4 entities to in-memory store.
+[07:06:45 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:06:45 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:06:45 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:06:45 INFORMATION] Executing endpoint 'Health checks'
+[07:06:45 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0072ms with message 'Unhealthy result from CustomHealthCheck'
+[07:06:45 INFORMATION] Executed endpoint 'Health checks'
+[07:06:45 INFORMATION] Received HTTP response headers after 7.6336ms - 503
+[07:06:45 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 9.0959ms
+[07:06:45 INFORMATION] End processing HTTP request after 13.9517ms - 503
+[07:06:45 INFORMATION] Notification is sent on same window time.
+[07:06:45 INFORMATION] Saved 3 entities to in-memory store.
+[07:06:45 INFORMATION] Application is shutting down...
+[07:08:47 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[07:08:48 INFORMATION] Initializing UI Database
+[07:08:49 INFORMATION] Saving healthchecks configuration to database
+[07:08:49 INFORMATION] Saved 1 entities to in-memory store.
+[07:08:49 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:08:49 INFORMATION] Now listening on: https://localhost:5001
+[07:08:49 INFORMATION] Now listening on: http://localhost:5000
+[07:08:49 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:08:49 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:08:49 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:08:49 INFORMATION] Hosting environment: Development
+[07:08:49 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[07:08:49 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:08:49 INFORMATION] Executing endpoint 'Health checks'
+[07:08:50 INFORMATION] Executed endpoint 'Health checks'
+[07:08:50 INFORMATION] Received HTTP response headers after 649.3792ms - 200
+[07:08:50 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 584.5347ms
+[07:08:50 INFORMATION] End processing HTTP request after 677.31ms - 200
+[07:08:50 INFORMATION] Saved 3 entities to in-memory store.
+[07:08:55 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:08:55 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:08:55 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:08:55 INFORMATION] Executing endpoint 'Health checks'
+[07:08:55 INFORMATION] Executed endpoint 'Health checks'
+[07:08:55 INFORMATION] Received HTTP response headers after 15.7014ms - 200
+[07:08:55 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 16.4207ms
+[07:08:55 INFORMATION] End processing HTTP request after 24.1779ms - 200
+[07:08:55 INFORMATION] Saved 3 entities to in-memory store.
+[07:09:00 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:00 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:00 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:00 INFORMATION] Executing endpoint 'Health checks'
+[07:09:00 INFORMATION] Executed endpoint 'Health checks'
+[07:09:00 INFORMATION] Received HTTP response headers after 18.597ms - 200
+[07:09:00 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 19.344ms
+[07:09:00 INFORMATION] End processing HTTP request after 32.2392ms - 200
+[07:09:00 INFORMATION] Saved 3 entities to in-memory store.
+[07:09:05 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:05 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:05 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:05 INFORMATION] Executing endpoint 'Health checks'
+[07:09:05 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.031ms with message 'Degraded result from CustomHealthCheck'
+[07:09:05 INFORMATION] Executed endpoint 'Health checks'
+[07:09:05 INFORMATION] Received HTTP response headers after 60.868ms - 200
+[07:09:05 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 62.1536ms
+[07:09:05 INFORMATION] End processing HTTP request after 87.1955ms - 200
+[07:09:05 INFORMATION] Saved 1 entities to in-memory store.
+[07:09:05 INFORMATION] Saved 4 entities to in-memory store.
+[07:09:10 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:10 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:10 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:10 INFORMATION] Executing endpoint 'Health checks'
+[07:09:10 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0083ms with message 'Unhealthy result from CustomHealthCheck'
+[07:09:10 INFORMATION] Executed endpoint 'Health checks'
+[07:09:10 INFORMATION] Received HTTP response headers after 6.1941ms - 503
+[07:09:10 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 7.0311ms
+[07:09:10 INFORMATION] End processing HTTP request after 11.6928ms - 503
+[07:09:10 INFORMATION] Notification is sent on same window time.
+[07:09:11 INFORMATION] Saved 4 entities to in-memory store.
+[07:09:16 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:16 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:16 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:16 INFORMATION] Executing endpoint 'Health checks'
+[07:09:16 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0063ms with message 'Degraded result from CustomHealthCheck'
+[07:09:16 INFORMATION] Executed endpoint 'Health checks'
+[07:09:16 INFORMATION] Received HTTP response headers after 6.3208ms - 200
+[07:09:16 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.5419ms
+[07:09:16 INFORMATION] End processing HTTP request after 12.8529ms - 200
+[07:09:16 INFORMATION] Notification is sent on same window time.
+[07:09:16 INFORMATION] Saved 4 entities to in-memory store.
+[07:09:21 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:21 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:21 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:21 INFORMATION] Executing endpoint 'Health checks'
+[07:09:21 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0116ms with message 'Degraded result from CustomHealthCheck'
+[07:09:21 INFORMATION] Executed endpoint 'Health checks'
+[07:09:21 INFORMATION] Received HTTP response headers after 28.9672ms - 200
+[07:09:21 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 29.1511ms
+[07:09:21 INFORMATION] End processing HTTP request after 50.9165ms - 200
+[07:09:21 INFORMATION] Notification is sent on same window time.
+[07:09:21 INFORMATION] Saved 3 entities to in-memory store.
+[07:09:26 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:26 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:26 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:26 INFORMATION] Executing endpoint 'Health checks'
+[07:09:26 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0052ms with message 'Degraded result from CustomHealthCheck'
+[07:09:26 INFORMATION] Executed endpoint 'Health checks'
+[07:09:26 INFORMATION] Received HTTP response headers after 6.3726ms - 200
+[07:09:26 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.0693ms
+[07:09:26 INFORMATION] End processing HTTP request after 13.5849ms - 200
+[07:09:26 INFORMATION] Notification is sent on same window time.
+[07:09:26 INFORMATION] Saved 3 entities to in-memory store.
+[07:09:31 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:31 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:31 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:31 INFORMATION] Executing endpoint 'Health checks'
+[07:09:31 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0093ms with message 'Degraded result from CustomHealthCheck'
+[07:09:31 INFORMATION] Executed endpoint 'Health checks'
+[07:09:31 INFORMATION] Received HTTP response headers after 7.9247ms - 200
+[07:09:31 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 9.1899ms
+[07:09:31 INFORMATION] End processing HTTP request after 15.2702ms - 200
+[07:09:31 INFORMATION] Notification is sent on same window time.
+[07:09:31 INFORMATION] Saved 3 entities to in-memory store.
+[07:09:33 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/authentication/login - application/json-patch+json 54
+[07:09:33 INFORMATION] CORS policy execution successful.
+[07:09:33 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[07:09:33 INFORMATION] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Shared.DataTransferObjects.UserForAuthenticationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController (CompanyEmployees.Infrastructure.Presentation).
+[07:09:34 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[07:09:34 INFORMATION] Executed DbCommand (26ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[07:09:35 INFORMATION] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[07:09:35 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[07:09:35 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[07:09:35 INFORMATION] Executed DbCommand (11ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[07:09:35 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1213.91ms.
+[07:09:35 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[07:09:35 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) in 1450.873ms
+[07:09:35 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[07:09:35 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/authentication/login - 200 null application/json; charset=utf-8 1580.9143ms
+[07:09:36 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:36 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:36 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:36 INFORMATION] Executing endpoint 'Health checks'
+[07:09:36 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0057ms with message 'Degraded result from CustomHealthCheck'
+[07:09:36 INFORMATION] Executed endpoint 'Health checks'
+[07:09:36 INFORMATION] Received HTTP response headers after 6.3551ms - 200
+[07:09:36 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.1402ms
+[07:09:36 INFORMATION] End processing HTTP request after 12.8808ms - 200
+[07:09:36 INFORMATION] Notification is sent on same window time.
+[07:09:36 INFORMATION] Saved 3 entities to in-memory store.
+[07:09:41 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:41 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:41 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:41 INFORMATION] Executing endpoint 'Health checks'
+[07:09:41 INFORMATION] Executed endpoint 'Health checks'
+[07:09:41 INFORMATION] Received HTTP response headers after 6.0065ms - 200
+[07:09:41 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.7017ms
+[07:09:41 INFORMATION] End processing HTTP request after 10.5069ms - 200
+[07:09:41 INFORMATION] Saved 1 entities to in-memory store.
+[07:09:41 INFORMATION] Saved 4 entities to in-memory store.
+[07:09:46 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:46 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:46 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:46 INFORMATION] Executing endpoint 'Health checks'
+[07:09:46 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.006ms with message 'Degraded result from CustomHealthCheck'
+[07:09:46 INFORMATION] Executed endpoint 'Health checks'
+[07:09:46 INFORMATION] Received HTTP response headers after 8.2244ms - 200
+[07:09:46 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 9.5001ms
+[07:09:46 INFORMATION] End processing HTTP request after 16.0485ms - 200
+[07:09:46 INFORMATION] Saved 1 entities to in-memory store.
+[07:09:46 INFORMATION] Saved 4 entities to in-memory store.
+[07:09:51 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:51 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:51 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:51 INFORMATION] Executing endpoint 'Health checks'
+[07:09:51 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0203ms with message 'Unhealthy result from CustomHealthCheck'
+[07:09:51 INFORMATION] Executed endpoint 'Health checks'
+[07:09:51 INFORMATION] Received HTTP response headers after 39.8948ms - 503
+[07:09:51 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 43.7212ms
+[07:09:51 INFORMATION] End processing HTTP request after 68.7699ms - 503
+[07:09:51 INFORMATION] Notification is sent on same window time.
+[07:09:51 INFORMATION] Saved 4 entities to in-memory store.
+[07:09:56 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:09:56 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:09:56 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:09:56 INFORMATION] Executing endpoint 'Health checks'
+[07:09:56 INFORMATION] Executed endpoint 'Health checks'
+[07:09:56 INFORMATION] Received HTTP response headers after 6.954ms - 200
+[07:09:56 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 8.6023ms
+[07:09:56 INFORMATION] End processing HTTP request after 13.9876ms - 200
+[07:09:56 INFORMATION] Saved 1 entities to in-memory store.
+[07:09:56 INFORMATION] Saved 4 entities to in-memory store.
+[07:09:56 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies - null null
+[07:09:56 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[07:09:56 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompanies(System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:09:56 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[07:09:56 INFORMATION] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[07:09:56 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 95.3175ms.
+[07:09:56 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[07:09:56 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 114.376ms
+[07:09:56 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[07:09:56 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies - 200 null application/json; charset=utf-8 134.9529ms
+[07:10:01 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:01 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:01 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:01 INFORMATION] Executing endpoint 'Health checks'
+[07:10:01 INFORMATION] Executed endpoint 'Health checks'
+[07:10:01 INFORMATION] Received HTTP response headers after 22.774ms - 200
+[07:10:01 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 25.4972ms
+[07:10:01 INFORMATION] End processing HTTP request after 38.0228ms - 200
+[07:10:01 INFORMATION] Saved 3 entities to in-memory store.
+[07:10:06 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:06 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:06 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:06 INFORMATION] Executing endpoint 'Health checks'
+[07:10:06 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0188ms with message 'Unhealthy result from CustomHealthCheck'
+[07:10:06 INFORMATION] Executed endpoint 'Health checks'
+[07:10:06 INFORMATION] Received HTTP response headers after 27.3985ms - 503
+[07:10:06 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 31.9719ms
+[07:10:06 INFORMATION] End processing HTTP request after 57.333ms - 503
+[07:10:06 INFORMATION] Saved 1 entities to in-memory store.
+[07:10:06 INFORMATION] Saved 4 entities to in-memory store.
+[07:10:11 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:11 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:11 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:11 INFORMATION] Executing endpoint 'Health checks'
+[07:10:11 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0059ms with message 'Degraded result from CustomHealthCheck'
+[07:10:11 INFORMATION] Executed endpoint 'Health checks'
+[07:10:11 INFORMATION] Received HTTP response headers after 21.6205ms - 200
+[07:10:11 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 22.725ms
+[07:10:11 INFORMATION] End processing HTTP request after 40.7026ms - 200
+[07:10:11 INFORMATION] Notification is sent on same window time.
+[07:10:11 INFORMATION] Saved 4 entities to in-memory store.
+[07:10:16 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:16 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:16 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:16 INFORMATION] Executing endpoint 'Health checks'
+[07:10:16 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0101ms with message 'Unhealthy result from CustomHealthCheck'
+[07:10:16 INFORMATION] Executed endpoint 'Health checks'
+[07:10:16 INFORMATION] Received HTTP response headers after 16.4027ms - 503
+[07:10:16 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 19.1264ms
+[07:10:16 INFORMATION] End processing HTTP request after 30.0874ms - 503
+[07:10:16 INFORMATION] Notification is sent on same window time.
+[07:10:16 INFORMATION] Saved 4 entities to in-memory store.
+[07:10:21 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:21 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:21 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:21 INFORMATION] Executing endpoint 'Health checks'
+[07:10:21 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0067ms with message 'Degraded result from CustomHealthCheck'
+[07:10:21 INFORMATION] Executed endpoint 'Health checks'
+[07:10:21 INFORMATION] Received HTTP response headers after 6.2311ms - 200
+[07:10:21 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.972ms
+[07:10:21 INFORMATION] End processing HTTP request after 12.8659ms - 200
+[07:10:21 INFORMATION] Notification is sent on same window time.
+[07:10:21 INFORMATION] Saved 4 entities to in-memory store.
+[07:10:26 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:26 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:26 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:26 INFORMATION] Executing endpoint 'Health checks'
+[07:10:26 INFORMATION] Executed endpoint 'Health checks'
+[07:10:26 INFORMATION] Received HTTP response headers after 5.7731ms - 200
+[07:10:26 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 10.4845ms
+[07:10:26 INFORMATION] End processing HTTP request after 22.6932ms - 200
+[07:10:26 INFORMATION] Saved 1 entities to in-memory store.
+[07:10:26 INFORMATION] Saved 4 entities to in-memory store.
+[07:10:31 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:31 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:31 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:31 INFORMATION] Executing endpoint 'Health checks'
+[07:10:31 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0059ms with message 'Degraded result from CustomHealthCheck'
+[07:10:31 INFORMATION] Executed endpoint 'Health checks'
+[07:10:31 INFORMATION] Received HTTP response headers after 6.1277ms - 200
+[07:10:31 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.096ms
+[07:10:31 INFORMATION] End processing HTTP request after 11.4769ms - 200
+[07:10:31 INFORMATION] Saved 1 entities to in-memory store.
+[07:10:31 INFORMATION] Saved 4 entities to in-memory store.
+[07:10:36 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:36 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:36 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:36 INFORMATION] Executing endpoint 'Health checks'
+[07:10:36 INFORMATION] Executed endpoint 'Health checks'
+[07:10:36 INFORMATION] Received HTTP response headers after 15.6739ms - 200
+[07:10:36 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 19.4849ms
+[07:10:36 INFORMATION] End processing HTTP request after 33.3721ms - 200
+[07:10:36 INFORMATION] Saved 1 entities to in-memory store.
+[07:10:36 INFORMATION] Saved 4 entities to in-memory store.
+[07:10:41 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:41 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:41 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:41 INFORMATION] Executing endpoint 'Health checks'
+[07:10:41 INFORMATION] Executed endpoint 'Health checks'
+[07:10:41 INFORMATION] Received HTTP response headers after 33.8124ms - 200
+[07:10:41 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 41.7818ms
+[07:10:41 INFORMATION] End processing HTTP request after 69.2104ms - 200
+[07:10:41 INFORMATION] Saved 3 entities to in-memory store.
+[07:10:46 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:46 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:46 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:46 INFORMATION] Executing endpoint 'Health checks'
+[07:10:46 INFORMATION] Executed endpoint 'Health checks'
+[07:10:46 INFORMATION] Received HTTP response headers after 27.5429ms - 200
+[07:10:46 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 30.7359ms
+[07:10:46 INFORMATION] End processing HTTP request after 56.2201ms - 200
+[07:10:46 INFORMATION] Saved 3 entities to in-memory store.
+[07:10:51 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:51 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:51 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:52 INFORMATION] Executing endpoint 'Health checks'
+[07:10:52 INFORMATION] Executed endpoint 'Health checks'
+[07:10:52 INFORMATION] Received HTTP response headers after 8.8598ms - 200
+[07:10:52 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.9327ms
+[07:10:52 INFORMATION] End processing HTTP request after 16.9104ms - 200
+[07:10:52 INFORMATION] Saved 3 entities to in-memory store.
+[07:10:57 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:10:57 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:10:57 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:10:57 INFORMATION] Executing endpoint 'Health checks'
+[07:10:57 INFORMATION] Executed endpoint 'Health checks'
+[07:10:57 INFORMATION] Received HTTP response headers after 7.4423ms - 200
+[07:10:57 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 8.2352ms
+[07:10:57 INFORMATION] End processing HTTP request after 12.6755ms - 200
+[07:10:57 INFORMATION] Saved 3 entities to in-memory store.
+[07:11:02 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:11:02 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:11:02 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:11:02 INFORMATION] Executing endpoint 'Health checks'
+[07:11:02 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0091ms with message 'Degraded result from CustomHealthCheck'
+[07:11:02 INFORMATION] Executed endpoint 'Health checks'
+[07:11:02 INFORMATION] Received HTTP response headers after 34.3897ms - 200
+[07:11:02 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 37.5028ms
+[07:11:02 INFORMATION] End processing HTTP request after 62.2003ms - 200
+[07:11:02 INFORMATION] Saved 1 entities to in-memory store.
+[07:11:02 INFORMATION] Saved 4 entities to in-memory store.
+[07:11:07 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:11:07 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:11:07 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:11:07 INFORMATION] Executing endpoint 'Health checks'
+[07:11:07 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0041ms with message 'Unhealthy result from CustomHealthCheck'
+[07:11:07 INFORMATION] Executed endpoint 'Health checks'
+[07:11:07 INFORMATION] Received HTTP response headers after 8.639ms - 503
+[07:11:07 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 9.7372ms
+[07:11:07 INFORMATION] End processing HTTP request after 18.5912ms - 503
+[07:11:07 INFORMATION] Notification is sent on same window time.
+[07:11:07 INFORMATION] Saved 4 entities to in-memory store.
+[07:11:12 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:11:12 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:11:12 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:11:12 INFORMATION] Executing endpoint 'Health checks'
+[07:11:12 INFORMATION] Executed endpoint 'Health checks'
+[07:11:12 INFORMATION] Received HTTP response headers after 20.2157ms - 200
+[07:11:12 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 24.1822ms
+[07:11:12 INFORMATION] End processing HTTP request after 49.3264ms - 200
+[07:11:12 INFORMATION] Saved 1 entities to in-memory store.
+[07:11:12 INFORMATION] Saved 4 entities to in-memory store.
+[07:11:17 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:11:17 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:11:17 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:11:17 INFORMATION] Executing endpoint 'Health checks'
+[07:11:17 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0041ms with message 'Degraded result from CustomHealthCheck'
+[07:11:17 INFORMATION] Executed endpoint 'Health checks'
+[07:11:17 INFORMATION] Received HTTP response headers after 10.0795ms - 200
+[07:11:17 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 11.4074ms
+[07:11:17 INFORMATION] End processing HTTP request after 17.2613ms - 200
+[07:11:17 INFORMATION] Saved 1 entities to in-memory store.
+[07:11:17 INFORMATION] Saved 4 entities to in-memory store.
+[07:11:22 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:11:22 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:11:22 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:11:22 INFORMATION] Executing endpoint 'Health checks'
+[07:11:22 INFORMATION] Executed endpoint 'Health checks'
+[07:11:22 INFORMATION] Received HTTP response headers after 16.8605ms - 200
+[07:11:22 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 19.7295ms
+[07:11:22 INFORMATION] End processing HTTP request after 43.8639ms - 200
+[07:11:22 INFORMATION] Saved 1 entities to in-memory store.
+[07:11:22 INFORMATION] Saved 4 entities to in-memory store.
+[07:11:27 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:11:27 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:11:27 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:11:27 INFORMATION] Executing endpoint 'Health checks'
+[07:11:27 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0146ms with message 'Unhealthy result from CustomHealthCheck'
+[07:11:27 INFORMATION] Executed endpoint 'Health checks'
+[07:11:27 INFORMATION] Received HTTP response headers after 5.8618ms - 503
+[07:11:27 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 6.5363ms
+[07:11:27 INFORMATION] End processing HTTP request after 11.667ms - 503
+[07:11:27 INFORMATION] Saved 1 entities to in-memory store.
+[07:11:27 INFORMATION] Saved 4 entities to in-memory store.
+[07:11:32 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:11:32 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:11:32 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:11:32 INFORMATION] Executing endpoint 'Health checks'
+[07:11:32 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0047ms with message 'Unhealthy result from CustomHealthCheck'
+[07:11:32 INFORMATION] Executed endpoint 'Health checks'
+[07:11:32 INFORMATION] Received HTTP response headers after 6.4012ms - 503
+[07:11:32 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 7.1857ms
+[07:11:32 INFORMATION] End processing HTTP request after 13.8635ms - 503
+[07:11:32 INFORMATION] Notification is sent on same window time.
+[07:11:32 INFORMATION] Saved 3 entities to in-memory store.
+[07:11:35 INFORMATION] Application is shutting down...
+[07:15:11 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[07:15:11 INFORMATION] Initializing UI Database
+[07:15:12 INFORMATION] Saving healthchecks configuration to database
+[07:15:12 INFORMATION] Saved 1 entities to in-memory store.
+[07:15:12 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:15:13 INFORMATION] Now listening on: https://localhost:5001
+[07:15:13 INFORMATION] Now listening on: http://localhost:5000
+[07:15:13 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:15:13 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:15:13 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:15:13 INFORMATION] Hosting environment: Development
+[07:15:13 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[07:15:13 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:15:13 INFORMATION] Executing endpoint 'Health checks'
+[07:15:13 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 3.0391ms with message 'Unhealthy result from CustomHealthCheck'
+[07:15:13 INFORMATION] Executed endpoint 'Health checks'
+[07:15:13 INFORMATION] Received HTTP response headers after 547.371ms - 503
+[07:15:13 INFORMATION] End processing HTTP request after 563.391ms - 503
+[07:15:14 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 491.8356ms
+[07:15:14 INFORMATION] Saved 1 entities to in-memory store.
+[07:15:14 INFORMATION] Saved 3 entities to in-memory store.
+[07:15:19 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:15:19 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:15:19 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:15:19 INFORMATION] Executing endpoint 'Health checks'
+[07:15:19 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0428ms with message 'Unhealthy result from CustomHealthCheck'
+[07:15:19 INFORMATION] Executed endpoint 'Health checks'
+[07:15:19 INFORMATION] Received HTTP response headers after 21.9717ms - 503
+[07:15:19 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 21.9934ms
+[07:15:19 INFORMATION] End processing HTTP request after 30.1772ms - 503
+[07:15:19 INFORMATION] Notification is sent on same window time.
+[07:15:19 INFORMATION] Saved 3 entities to in-memory store.
+[07:15:20 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html?urls.primaryName=Code+Maze+API+v1 - null null
+[07:15:20 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html?urls.primaryName=Code+Maze+API+v1 - 200 null text/html;charset=utf-8 79.9967ms
+[07:15:20 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/index.js - null null
+[07:15:20 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/index.js - 200 null application/javascript;charset=utf-8 5.1856ms
+[07:15:21 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null
+[07:15:21 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 167.0669ms
+[07:15:24 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:15:24 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:15:24 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:15:24 INFORMATION] Executing endpoint 'Health checks'
+[07:15:24 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0165ms with message 'Degraded result from CustomHealthCheck'
+[07:15:24 INFORMATION] Executed endpoint 'Health checks'
+[07:15:24 INFORMATION] Received HTTP response headers after 18.1786ms - 200
+[07:15:24 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 19.9135ms
+[07:15:24 INFORMATION] End processing HTTP request after 29.4194ms - 200
+[07:15:24 INFORMATION] Notification is sent on same window time.
+[07:15:24 INFORMATION] Saved 4 entities to in-memory store.
+[07:15:29 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:15:29 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:15:29 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:15:29 INFORMATION] Executing endpoint 'Health checks'
+[07:15:29 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.007ms with message 'Degraded result from CustomHealthCheck'
+[07:15:29 INFORMATION] Executed endpoint 'Health checks'
+[07:15:29 INFORMATION] Received HTTP response headers after 7.6945ms - 200
+[07:15:29 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 8.0974ms
+[07:15:29 INFORMATION] End processing HTTP request after 13.2462ms - 200
+[07:15:29 INFORMATION] Notification is sent on same window time.
+[07:15:29 INFORMATION] Saved 3 entities to in-memory store.
+[07:15:34 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:15:34 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:15:34 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:15:34 INFORMATION] Executing endpoint 'Health checks'
+[07:15:34 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0148ms with message 'Unhealthy result from CustomHealthCheck'
+[07:15:34 INFORMATION] Executed endpoint 'Health checks'
+[07:15:34 INFORMATION] Received HTTP response headers after 19.8773ms - 503
+[07:15:34 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 21.8102ms
+[07:15:34 INFORMATION] End processing HTTP request after 34.6054ms - 503
+[07:15:34 INFORMATION] Notification is sent on same window time.
+[07:15:34 INFORMATION] Saved 4 entities to in-memory store.
+[07:15:39 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:15:39 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:15:39 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:15:39 INFORMATION] Executing endpoint 'Health checks'
+[07:15:39 INFORMATION] Executed endpoint 'Health checks'
+[07:15:39 INFORMATION] Received HTTP response headers after 5.7467ms - 200
+[07:15:39 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.7288ms
+[07:15:39 INFORMATION] End processing HTTP request after 13.7081ms - 200
+[07:15:39 INFORMATION] Saved 1 entities to in-memory store.
+[07:15:39 INFORMATION] Saved 4 entities to in-memory store.
+[07:15:44 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:15:44 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:15:44 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:15:44 INFORMATION] Executing endpoint 'Health checks'
+[07:15:44 INFORMATION] Executed endpoint 'Health checks'
+[07:15:44 INFORMATION] Received HTTP response headers after 20.0454ms - 200
+[07:15:44 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 19.9307ms
+[07:15:44 INFORMATION] End processing HTTP request after 42.6767ms - 200
+[07:15:44 INFORMATION] Saved 3 entities to in-memory store.
+[07:15:46 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/authentication/login - application/json-patch+json 54
+[07:15:46 INFORMATION] CORS policy execution successful.
+[07:15:46 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[07:15:46 INFORMATION] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Shared.DataTransferObjects.UserForAuthenticationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController (CompanyEmployees.Infrastructure.Presentation).
+[07:15:47 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[07:15:47 INFORMATION] Executed DbCommand (26ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[07:15:48 INFORMATION] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[07:15:48 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[07:15:48 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[07:15:48 INFORMATION] Executed DbCommand (8ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[07:15:48 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1292.1744ms.
+[07:15:48 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[07:15:48 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) in 1530.2623ms
+[07:15:48 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[07:15:48 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/authentication/login - 200 null application/json; charset=utf-8 1591.7109ms
+[07:15:49 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:15:49 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:15:49 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:15:49 INFORMATION] Executing endpoint 'Health checks'
+[07:15:49 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0067ms with message 'Degraded result from CustomHealthCheck'
+[07:15:49 INFORMATION] Executed endpoint 'Health checks'
+[07:15:49 INFORMATION] Received HTTP response headers after 7.65ms - 200
+[07:15:49 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 8.7284ms
+[07:15:49 INFORMATION] End processing HTTP request after 15.5212ms - 200
+[07:15:49 INFORMATION] Saved 1 entities to in-memory store.
+[07:15:49 INFORMATION] Saved 4 entities to in-memory store.
+[07:15:54 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:15:54 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:15:54 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:15:54 INFORMATION] Executing endpoint 'Health checks'
+[07:15:54 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0164ms with message 'Degraded result from CustomHealthCheck'
+[07:15:54 INFORMATION] Executed endpoint 'Health checks'
+[07:15:54 INFORMATION] Received HTTP response headers after 6.6573ms - 200
+[07:15:54 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.1692ms
+[07:15:54 INFORMATION] End processing HTTP request after 12.9658ms - 200
+[07:15:54 INFORMATION] Notification is sent on same window time.
+[07:15:54 INFORMATION] Saved 3 entities to in-memory store.
+[07:15:59 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:15:59 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:15:59 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:15:59 INFORMATION] Executing endpoint 'Health checks'
+[07:15:59 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.026ms with message 'Degraded result from CustomHealthCheck'
+[07:15:59 INFORMATION] Executed endpoint 'Health checks'
+[07:15:59 INFORMATION] Received HTTP response headers after 41.2874ms - 200
+[07:15:59 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 47.6817ms
+[07:15:59 INFORMATION] End processing HTTP request after 72.6963ms - 200
+[07:15:59 INFORMATION] Notification is sent on same window time.
+[07:15:59 INFORMATION] Saved 3 entities to in-memory store.
+[07:16:04 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:16:04 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:16:04 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:16:04 INFORMATION] Executing endpoint 'Health checks'
+[07:16:04 INFORMATION] Executed endpoint 'Health checks'
+[07:16:04 INFORMATION] Received HTTP response headers after 7.7005ms - 200
+[07:16:04 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 8.8797ms
+[07:16:04 INFORMATION] End processing HTTP request after 14.8744ms - 200
+[07:16:04 INFORMATION] Saved 1 entities to in-memory store.
+[07:16:04 INFORMATION] Saved 4 entities to in-memory store.
+[07:16:09 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:16:09 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:16:09 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:16:09 INFORMATION] Executing endpoint 'Health checks'
+[07:16:09 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0091ms with message 'Unhealthy result from CustomHealthCheck'
+[07:16:09 INFORMATION] Executed endpoint 'Health checks'
+[07:16:09 INFORMATION] Received HTTP response headers after 20.6496ms - 503
+[07:16:09 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 23.5393ms
+[07:16:09 INFORMATION] End processing HTTP request after 36.2801ms - 503
+[07:16:09 INFORMATION] Saved 1 entities to in-memory store.
+[07:16:09 INFORMATION] Saved 4 entities to in-memory store.
+[07:16:14 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:16:14 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:16:14 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:16:14 INFORMATION] Executing endpoint 'Health checks'
+[07:16:14 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.1276ms with message 'Degraded result from CustomHealthCheck'
+[07:16:14 INFORMATION] Executed endpoint 'Health checks'
+[07:16:14 INFORMATION] Received HTTP response headers after 24.8676ms - 200
+[07:16:14 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 28.0314ms
+[07:16:14 INFORMATION] End processing HTTP request after 52.2412ms - 200
+[07:16:14 INFORMATION] Notification is sent on same window time.
+[07:16:14 INFORMATION] Saved 4 entities to in-memory store.
+[07:16:16 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api/companies - null null
+[07:16:16 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[07:16:16 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompanies(System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:16:16 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[07:16:16 INFORMATION] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[07:16:16 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 88.7042ms.
+[07:16:16 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[07:16:16 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 110.8081ms
+[07:16:16 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[07:16:16 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api/companies - 200 null application/json; charset=utf-8 192.5564ms
+[07:16:19 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:16:19 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:16:19 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:16:19 INFORMATION] Executing endpoint 'Health checks'
+[07:16:19 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0057ms with message 'Unhealthy result from CustomHealthCheck'
+[07:16:19 INFORMATION] Executed endpoint 'Health checks'
+[07:16:19 INFORMATION] Received HTTP response headers after 6.4306ms - 503
+[07:16:19 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 7.2661ms
+[07:16:19 INFORMATION] End processing HTTP request after 13.9089ms - 503
+[07:16:19 INFORMATION] Notification is sent on same window time.
+[07:16:19 INFORMATION] Saved 4 entities to in-memory store.
+[07:16:24 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:16:24 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:16:24 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:16:24 INFORMATION] Executing endpoint 'Health checks'
+[07:16:24 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0046ms with message 'Degraded result from CustomHealthCheck'
+[07:16:24 INFORMATION] Executed endpoint 'Health checks'
+[07:16:24 INFORMATION] Received HTTP response headers after 6.2197ms - 200
+[07:16:24 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.5569ms
+[07:16:24 INFORMATION] End processing HTTP request after 12.2773ms - 200
+[07:16:24 INFORMATION] Notification is sent on same window time.
+[07:16:24 INFORMATION] Saved 4 entities to in-memory store.
+[07:16:30 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:16:30 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:16:30 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:16:30 INFORMATION] Executing endpoint 'Health checks'
+[07:16:30 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0165ms with message 'Degraded result from CustomHealthCheck'
+[07:16:30 INFORMATION] Executed endpoint 'Health checks'
+[07:16:30 INFORMATION] Received HTTP response headers after 27.1915ms - 200
+[07:16:30 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 30.6471ms
+[07:16:30 INFORMATION] End processing HTTP request after 54.3724ms - 200
+[07:16:30 INFORMATION] Notification is sent on same window time.
+[07:16:30 INFORMATION] Saved 3 entities to in-memory store.
+[07:16:35 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:16:35 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:16:35 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:16:35 INFORMATION] Executing endpoint 'Health checks'
+[07:16:35 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0055ms with message 'Unhealthy result from CustomHealthCheck'
+[07:16:35 INFORMATION] Executed endpoint 'Health checks'
+[07:16:35 INFORMATION] Received HTTP response headers after 6.9293ms - 503
+[07:16:35 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 7.8903ms
+[07:16:35 INFORMATION] End processing HTTP request after 12.8805ms - 503
+[07:16:35 INFORMATION] Notification is sent on same window time.
+[07:16:35 INFORMATION] Saved 4 entities to in-memory store.
+[07:16:40 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:16:40 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:16:40 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:16:40 INFORMATION] Executing endpoint 'Health checks'
+[07:16:40 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0057ms with message 'Degraded result from CustomHealthCheck'
+[07:16:40 INFORMATION] Executed endpoint 'Health checks'
+[07:16:40 INFORMATION] Received HTTP response headers after 6.3829ms - 200
+[07:16:40 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.2564ms
+[07:16:40 INFORMATION] End processing HTTP request after 14.1777ms - 200
+[07:16:40 INFORMATION] Notification is sent on same window time.
+[07:16:40 INFORMATION] Saved 4 entities to in-memory store.
+[07:16:45 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:16:45 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:16:45 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:16:45 INFORMATION] Executing endpoint 'Health checks'
+[07:16:45 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0075ms with message 'Degraded result from CustomHealthCheck'
+[07:16:45 INFORMATION] Executed endpoint 'Health checks'
+[07:16:45 INFORMATION] Received HTTP response headers after 6.3067ms - 200
+[07:16:45 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.2958ms
+[07:16:45 INFORMATION] End processing HTTP request after 12.763ms - 200
+[07:16:45 INFORMATION] Notification is sent on same window time.
+[07:16:45 INFORMATION] Saved 3 entities to in-memory store.
+[07:16:47 INFORMATION] Application is shutting down...
+[07:22:16 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[07:22:17 INFORMATION] Initializing UI Database
+[07:22:18 INFORMATION] Saving healthchecks configuration to database
+[07:22:18 INFORMATION] Saved 1 entities to in-memory store.
+[07:22:18 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:22:18 INFORMATION] Now listening on: https://localhost:5001
+[07:22:18 INFORMATION] Now listening on: http://localhost:5000
+[07:22:18 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:22:18 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:22:18 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:22:18 INFORMATION] Hosting environment: Development
+[07:22:18 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[07:22:18 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:22:19 INFORMATION] Executing endpoint 'Health checks'
+[07:22:19 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 3.0701ms with message 'Unhealthy result from CustomHealthCheck'
+[07:22:19 INFORMATION] Executed endpoint 'Health checks'
+[07:22:19 INFORMATION] Received HTTP response headers after 625.995ms - 503
+[07:22:19 INFORMATION] End processing HTTP request after 642.5166ms - 503
+[07:22:19 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 529.1527ms
+[07:22:19 INFORMATION] Saved 1 entities to in-memory store.
+[07:22:19 INFORMATION] Saved 3 entities to in-memory store.
+[07:22:19 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html?urls.primaryName=Code+Maze+API+v1 - null null
+[07:22:19 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html?urls.primaryName=Code+Maze+API+v1 - 200 null text/html;charset=utf-8 80.2242ms
+[07:22:20 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/index.js - null null
+[07:22:20 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/index.js - 200 null application/javascript;charset=utf-8 8.135ms
+[07:22:20 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null
+[07:22:20 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 313.9278ms
+[07:22:24 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:22:24 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:22:24 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:22:24 INFORMATION] Executing endpoint 'Health checks'
+[07:22:24 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0352ms with message 'Unhealthy result from CustomHealthCheck'
+[07:22:24 INFORMATION] Executed endpoint 'Health checks'
+[07:22:24 INFORMATION] Received HTTP response headers after 11.6021ms - 503
+[07:22:24 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 12.9761ms
+[07:22:24 INFORMATION] End processing HTTP request after 19.3435ms - 503
+[07:22:24 INFORMATION] Notification is sent on same window time.
+[07:22:24 INFORMATION] Saved 3 entities to in-memory store.
+[07:22:29 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:22:29 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:22:29 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:22:29 INFORMATION] Executing endpoint 'Health checks'
+[07:22:29 INFORMATION] Executed endpoint 'Health checks'
+[07:22:29 INFORMATION] Received HTTP response headers after 6.3233ms - 200
+[07:22:29 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 6.9738ms
+[07:22:29 INFORMATION] End processing HTTP request after 11.787ms - 200
+[07:22:29 INFORMATION] Saved 1 entities to in-memory store.
+[07:22:29 INFORMATION] Saved 4 entities to in-memory store.
+[07:22:34 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:22:34 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:22:34 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:22:34 INFORMATION] Executing endpoint 'Health checks'
+[07:22:34 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0047ms with message 'Unhealthy result from CustomHealthCheck'
+[07:22:34 INFORMATION] Executed endpoint 'Health checks'
+[07:22:34 INFORMATION] Received HTTP response headers after 6.9065ms - 503
+[07:22:34 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 6.9226ms
+[07:22:34 INFORMATION] End processing HTTP request after 14.4645ms - 503
+[07:22:34 INFORMATION] Saved 1 entities to in-memory store.
+[07:22:34 INFORMATION] Saved 4 entities to in-memory store.
+[07:22:39 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:22:39 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:22:39 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:22:39 INFORMATION] Executing endpoint 'Health checks'
+[07:22:39 INFORMATION] Executed endpoint 'Health checks'
+[07:22:39 INFORMATION] Received HTTP response headers after 6.744ms - 200
+[07:22:39 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.6021ms
+[07:22:39 INFORMATION] End processing HTTP request after 12.9497ms - 200
+[07:22:39 INFORMATION] Saved 1 entities to in-memory store.
+[07:22:39 INFORMATION] Saved 4 entities to in-memory store.
+[07:22:44 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:22:44 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:22:44 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:22:44 INFORMATION] Executing endpoint 'Health checks'
+[07:22:44 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0067ms with message 'Unhealthy result from CustomHealthCheck'
+[07:22:44 INFORMATION] Executed endpoint 'Health checks'
+[07:22:44 INFORMATION] Received HTTP response headers after 16.328ms - 503
+[07:22:44 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 16.259ms
+[07:22:44 INFORMATION] End processing HTTP request after 37.71ms - 503
+[07:22:44 INFORMATION] Saved 1 entities to in-memory store.
+[07:22:44 INFORMATION] Saved 4 entities to in-memory store.
+[07:22:49 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:22:49 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:22:49 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:22:49 INFORMATION] Executing endpoint 'Health checks'
+[07:22:49 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0064ms with message 'Unhealthy result from CustomHealthCheck'
+[07:22:49 INFORMATION] Executed endpoint 'Health checks'
+[07:22:49 INFORMATION] Received HTTP response headers after 7.0528ms - 503
+[07:22:49 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 7.9618ms
+[07:22:49 INFORMATION] End processing HTTP request after 13.0277ms - 503
+[07:22:49 INFORMATION] Notification is sent on same window time.
+[07:22:49 INFORMATION] Saved 3 entities to in-memory store.
+[07:22:54 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:22:54 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:22:55 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:22:55 INFORMATION] Executing endpoint 'Health checks'
+[07:22:55 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0185ms with message 'Degraded result from CustomHealthCheck'
+[07:22:55 INFORMATION] Executed endpoint 'Health checks'
+[07:22:55 INFORMATION] Received HTTP response headers after 28.1238ms - 200
+[07:22:55 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 27.9064ms
+[07:22:55 INFORMATION] End processing HTTP request after 51.1399ms - 200
+[07:22:55 INFORMATION] Notification is sent on same window time.
+[07:22:55 INFORMATION] Saved 4 entities to in-memory store.
+[07:23:00 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:23:00 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:23:00 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:23:00 INFORMATION] Executing endpoint 'Health checks'
+[07:23:00 WARNING] Health check CustomHealthCheck with status "Degraded" completed after 0.0058ms with message 'Degraded result from CustomHealthCheck'
+[07:23:00 INFORMATION] Executed endpoint 'Health checks'
+[07:23:00 INFORMATION] Received HTTP response headers after 6.4071ms - 200
+[07:23:00 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 200 null application/json 7.1996ms
+[07:23:00 INFORMATION] End processing HTTP request after 12.7418ms - 200
+[07:23:00 INFORMATION] Notification is sent on same window time.
+[07:23:00 INFORMATION] Saved 3 entities to in-memory store.
+[07:23:05 INFORMATION] Start processing HTTP request GET https://localhost:5001/health
+[07:23:05 INFORMATION] Sending HTTP request GET https://localhost:5001/health
+[07:23:05 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/health - null null
+[07:23:05 INFORMATION] Executing endpoint 'Health checks'
+[07:23:05 ERROR] Health check CustomHealthCheck with status "Unhealthy" completed after 0.0073ms with message 'Unhealthy result from CustomHealthCheck'
+[07:23:05 INFORMATION] Executed endpoint 'Health checks'
+[07:23:05 INFORMATION] Received HTTP response headers after 21.9141ms - 503
+[07:23:05 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/health - 503 null application/json 21.7259ms
+[07:23:05 INFORMATION] End processing HTTP request after 42.3945ms - 503
+[07:23:05 INFORMATION] Notification is sent on same window time.
+[07:23:05 INFORMATION] Saved 4 entities to in-memory store.
+[07:23:08 INFORMATION] Application is shutting down...

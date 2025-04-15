@@ -1,0 +1,129 @@
+[07:25:53 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:25:53 INFORMATION] Now listening on: https://localhost:5001
+[07:25:53 INFORMATION] Now listening on: http://localhost:5000
+[07:25:53 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:25:53 INFORMATION] Hosting environment: Development
+[07:25:53 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[07:25:55 INFORMATION] Request starting HTTP/1.1 PUT https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - application/json 48
+[07:25:55 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.UpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:25:55 INFORMATION] Route matched with {action = "UpdateEmployeeForCompany", controller = "Employees"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateEmployeeForCompany(System.Guid, System.Guid, Shared.DataTransferObjects.EmployeeForUpdateDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController (CompanyEmployees.Infrastructure.Presentation).
+[07:25:56 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.UpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Invalid"
+[07:25:56 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.UpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult in 0.6046ms.
+[07:25:56 INFORMATION] Executing UnprocessableEntityObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+[07:25:56 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.UpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) in 507.5343ms
+[07:25:56 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.UpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:25:56 INFORMATION] Request finished HTTP/1.1 PUT https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - 422 null application/json; charset=utf-8 611.6862ms
+[07:26:50 INFORMATION] Application is shutting down...
+[07:32:39 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:32:39 INFORMATION] Now listening on: https://localhost:5001
+[07:32:39 INFORMATION] Now listening on: http://localhost:5000
+[07:32:39 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:32:39 INFORMATION] Hosting environment: Development
+[07:32:39 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[07:32:49 INFORMATION] Request starting HTTP/1.1 PATCH https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - application/json-patch+json 58
+[07:32:49 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:32:49 INFORMATION] Route matched with {action = "PartiallyUpdateEmployeeForCompany", controller = "Employees"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PartiallyUpdateEmployeeForCompany(System.Guid, System.Guid, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Shared.DataTransferObjects.EmployeeForUpdateDto]) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController (CompanyEmployees.Infrastructure.Presentation).
+[07:32:49 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[07:33:06 ERROR] An error occurred using the connection to database 'CompanyEmployee' on server 'host.docker.internal,1433'.
+[07:33:06 ERROR] An exception occurred while iterating over the results of a query for context type 'CompanyEmployees.Infrastructure.Persistence.RepositoryContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+ ---> System.ComponentModel.Win32Exception (10061): No connection could be made because the target machine actively refused it.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10061,State:0,Class:20
+[07:33:06 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) in 17174.4315ms
+[07:33:06 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:33:06 ERROR] An unhandled exception has occurred while executing the request.
+[07:33:06 ERROR] Something went wrong: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+[07:33:06 INFORMATION] Request finished HTTP/1.1 PATCH https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - 500 null application/problem+json 17352.5658ms
+[07:33:53 INFORMATION] Request starting HTTP/1.1 PATCH https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - application/json-patch+json 58
+[07:33:53 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:33:53 INFORMATION] Route matched with {action = "PartiallyUpdateEmployeeForCompany", controller = "Employees"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PartiallyUpdateEmployeeForCompany(System.Guid, System.Guid, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Shared.DataTransferObjects.EmployeeForUpdateDto]) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController (CompanyEmployees.Infrastructure.Presentation).
+[07:33:53 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[07:33:53 INFORMATION] Executed DbCommand (55ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[07:33:53 INFORMATION] Executed DbCommand (18ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__id_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [e].[EmployeeId], [e].[Age], [e].[CompanyId], [e].[Name], [e].[Position]
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND [e].[EmployeeId] = @__id_1
+[07:33:53 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult in 375.239ms.
+[07:33:53 INFORMATION] Executing UnprocessableEntityObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+[07:33:53 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) in 399.6722ms
+[07:33:53 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:33:53 INFORMATION] Request finished HTTP/1.1 PATCH https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - 422 null application/json; charset=utf-8 412.2502ms
+[07:34:44 INFORMATION] Request starting HTTP/1.1 PATCH https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - application/json-patch+json 53
+[07:34:44 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:34:44 INFORMATION] Route matched with {action = "PartiallyUpdateEmployeeForCompany", controller = "Employees"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PartiallyUpdateEmployeeForCompany(System.Guid, System.Guid, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Shared.DataTransferObjects.EmployeeForUpdateDto]) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController (CompanyEmployees.Infrastructure.Presentation).
+[07:34:44 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[07:34:44 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[07:34:44 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__id_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [e].[EmployeeId], [e].[Age], [e].[CompanyId], [e].[Name], [e].[Position]
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND [e].[EmployeeId] = @__id_1
+[07:34:44 INFORMATION] Executed DbCommand (9ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Employees] SET [Age] = @p0
+OUTPUT 1
+WHERE [EmployeeId] = @p1;
+[07:34:44 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 163.5666ms.
+[07:34:44 INFORMATION] Executing StatusCodeResult, setting HTTP status code 204
+[07:34:44 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) in 182.6651ms
+[07:34:44 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:34:44 INFORMATION] Request finished HTTP/1.1 PATCH https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - 204 null null 195.2254ms
+[07:37:36 INFORMATION] Application is shutting down...
+[07:39:21 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:39:21 INFORMATION] Now listening on: https://localhost:5001
+[07:39:21 INFORMATION] Now listening on: http://localhost:5000
+[07:39:21 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:39:21 INFORMATION] Hosting environment: Development
+[07:39:21 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[07:39:57 INFORMATION] Request starting HTTP/1.1 PATCH https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - application/json-patch+json 53
+[07:39:57 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:39:57 INFORMATION] Route matched with {action = "PartiallyUpdateEmployeeForCompany", controller = "Employees"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PartiallyUpdateEmployeeForCompany(System.Guid, System.Guid, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Shared.DataTransferObjects.EmployeeForUpdateDto]) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController (CompanyEmployees.Infrastructure.Presentation).
+[07:39:58 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[07:40:01 INFORMATION] Executed DbCommand (64ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[07:40:01 INFORMATION] Executed DbCommand (5ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__id_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [e].[EmployeeId], [e].[Age], [e].[CompanyId], [e].[Name], [e].[Position]
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND [e].[EmployeeId] = @__id_1
+[07:40:01 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult in 2596.7208ms.
+[07:40:01 INFORMATION] Executing UnprocessableEntityObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+[07:40:01 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) in 3422.4158ms
+[07:40:01 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.PartiallyUpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:40:01 INFORMATION] Request finished HTTP/1.1 PATCH https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - 422 null application/json; charset=utf-8 3539.7529ms
+[07:41:49 INFORMATION] Application is shutting down...

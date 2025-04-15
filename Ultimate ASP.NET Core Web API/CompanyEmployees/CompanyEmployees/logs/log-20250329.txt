@@ -1,0 +1,418 @@
+[06:12:25 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[06:12:25 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[06:12:25 INFORMATION] Now listening on: https://localhost:5001
+[06:12:25 INFORMATION] Now listening on: http://localhost:5000
+[06:12:25 INFORMATION] Application started. Press Ctrl+C to shut down.
+[06:12:25 INFORMATION] Hosting environment: Development
+[06:12:25 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[06:12:35 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/authentication/login - application/json null
+[06:12:35 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[06:12:35 INFORMATION] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Shared.DataTransferObjects.UserForAuthenticationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController (CompanyEmployees.Infrastructure.Presentation).
+[06:12:35 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:12:38 INFORMATION] Executed DbCommand (69ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:12:38 INFORMATION] Executed DbCommand (10ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[06:12:38 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:12:38 INFORMATION] Executed DbCommand (4ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[06:12:38 INFORMATION] Executed DbCommand (18ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[06:12:38 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2710.3266ms.
+[06:12:38 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[06:12:38 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) in 3174.3557ms
+[06:12:38 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[06:12:38 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/authentication/login - 200 null application/json; charset=utf-8 3357.905ms
+[06:12:54 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:12:54 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:12:54 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:12:54 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:12:54 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 62.6778ms
+[06:12:54 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:12:54 ERROR] An unhandled exception has occurred while executing the request.
+[06:12:54 ERROR] Something went wrong: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '3/23/2025 4:54:19 AM', Current time (UTC): '3/29/2025 3:12:54 AM'.
+[06:12:54 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 500 null application/problem+json 197.676ms
+[06:13:24 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:13:24 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:13:24 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:13:24 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:13:24 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:13:24 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[06:13:24 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:13:24 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[06:13:24 INFORMATION] Executed DbCommand (10ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[06:13:24 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 130.9583ms.
+[06:13:24 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[06:13:24 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 153.4426ms
+[06:13:24 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:13:24 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 200 null application/json; charset=utf-8 168.891ms
+[06:13:30 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:13:30 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:13:30 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:13:30 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:13:30 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:13:30 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 21.8088ms
+[06:13:30 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:13:30 ERROR] An unhandled exception has occurred while executing the request.
+[06:13:30 ERROR] Something went wrong: Invalid client request. The tokenDto has some invalid values.
+[06:13:30 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 400 null application/problem+json 36.0612ms
+[06:13:41 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:13:41 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:13:41 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:13:41 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:13:41 INFORMATION] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:13:41 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 13.594ms
+[06:13:41 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:13:41 ERROR] An unhandled exception has occurred while executing the request.
+[06:13:41 ERROR] Something went wrong: Invalid client request. The tokenDto has some invalid values.
+[06:13:41 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 400 null application/problem+json 31.806ms
+[06:14:06 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/authentication/login - application/json null
+[06:14:06 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[06:14:06 INFORMATION] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Shared.DataTransferObjects.UserForAuthenticationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController (CompanyEmployees.Infrastructure.Presentation).
+[06:14:06 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:14:06 INFORMATION] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:14:06 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[06:14:06 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:14:06 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[06:14:06 INFORMATION] Executed DbCommand (9ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[06:14:06 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 152.8845ms.
+[06:14:06 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[06:14:06 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) in 161.4391ms
+[06:14:06 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[06:14:06 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/authentication/login - 200 null application/json; charset=utf-8 176.8971ms
+[06:14:13 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:14:13 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:14:13 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:14:13 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:14:13 INFORMATION] Executed DbCommand (6ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:14:13 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 18.5281ms
+[06:14:13 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:14:13 ERROR] An unhandled exception has occurred while executing the request.
+[06:14:13 ERROR] Something went wrong: Invalid client request. The tokenDto has some invalid values.
+[06:14:13 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 400 null application/problem+json 31.8827ms
+[06:14:22 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:14:22 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:14:22 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:14:22 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:14:22 INFORMATION] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:14:22 INFORMATION] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[06:14:22 INFORMATION] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:14:22 INFORMATION] Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[06:14:22 INFORMATION] Executed DbCommand (8ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[06:14:22 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 66.1067ms.
+[06:14:22 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[06:14:22 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 76.1423ms
+[06:14:22 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:14:22 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 200 null application/json; charset=utf-8 91.4765ms
+[06:14:33 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:14:33 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:14:33 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:14:33 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:14:33 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:14:33 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[06:14:33 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:14:33 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[06:14:33 INFORMATION] Executed DbCommand (9ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[06:14:33 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 47.0548ms.
+[06:14:33 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[06:14:33 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 52.8588ms
+[06:14:33 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:14:33 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 200 null application/json; charset=utf-8 62.889ms
+[06:14:42 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:14:42 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:14:42 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:14:42 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:14:42 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:14:42 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[06:14:42 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:14:42 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[06:14:42 INFORMATION] Executed DbCommand (9ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[06:14:42 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 35.7409ms.
+[06:14:42 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[06:14:42 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 41.8991ms
+[06:14:42 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:14:42 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 200 null application/json; charset=utf-8 52.7205ms
+[06:14:46 INFORMATION] Application is shutting down...
+[06:30:27 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[06:30:27 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[06:30:28 INFORMATION] Now listening on: https://localhost:5001
+[06:30:28 INFORMATION] Now listening on: http://localhost:5000
+[06:30:28 INFORMATION] Application started. Press Ctrl+C to shut down.
+[06:30:28 INFORMATION] Hosting environment: Development
+[06:30:28 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[06:30:33 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/authentication/login - application/json null
+[06:30:33 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[06:30:33 INFORMATION] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Shared.DataTransferObjects.UserForAuthenticationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController (CompanyEmployees.Infrastructure.Presentation).
+[06:30:34 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:30:35 INFORMATION] Executed DbCommand (57ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:30:36 INFORMATION] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[06:30:36 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:30:36 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[06:30:36 INFORMATION] Executed DbCommand (12ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[06:30:36 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2486.6469ms.
+[06:30:36 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[06:30:36 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) in 2883.2418ms
+[06:30:36 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[06:30:36 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/authentication/login - 200 null application/json; charset=utf-8 3046.5042ms
+[06:30:44 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:30:44 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:30:44 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:30:44 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:30:45 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:30:45 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[06:30:45 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:30:45 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[06:30:45 INFORMATION] Executed DbCommand (10ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[06:30:45 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 150.8794ms.
+[06:30:45 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[06:30:45 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 178.4955ms
+[06:30:45 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:30:45 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 200 null application/json; charset=utf-8 201.039ms
+[06:30:46 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:30:46 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:30:46 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:30:46 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:30:46 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:30:46 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 32.5939ms
+[06:30:46 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:30:46 ERROR] An unhandled exception has occurred while executing the request.
+[06:30:46 ERROR] Something went wrong: Invalid client request. The tokenDto has some invalid values.
+[06:30:46 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 400 null application/problem+json 92.7632ms
+[06:30:51 INFORMATION] Application is shutting down...
+[06:44:46 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[06:44:46 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[06:44:46 INFORMATION] Now listening on: https://localhost:5001
+[06:44:46 INFORMATION] Now listening on: http://localhost:5000
+[06:44:46 INFORMATION] Application started. Press Ctrl+C to shut down.
+[06:44:46 INFORMATION] Hosting environment: Development
+[06:44:46 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[06:44:53 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/authentication/login - application/json null
+[06:44:53 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[06:44:53 INFORMATION] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Shared.DataTransferObjects.UserForAuthenticationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController (CompanyEmployees.Infrastructure.Presentation).
+[06:44:54 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:44:55 INFORMATION] Executed DbCommand (61ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:44:56 INFORMATION] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[06:44:56 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:44:56 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[06:44:56 INFORMATION] Executed DbCommand (8ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[06:44:56 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2437.8852ms.
+[06:44:56 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[06:44:56 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation) in 2841.7995ms
+[06:44:56 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.AuthenticationController.Authenticate (CompanyEmployees.Infrastructure.Presentation)'
+[06:44:56 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/authentication/login - 200 null application/json; charset=utf-8 3011.482ms
+[06:45:05 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:45:05 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:45:05 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:45:05 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:45:05 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:45:05 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[06:45:05 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:45:05 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[06:45:05 INFORMATION] Executed DbCommand (8ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpiryTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+[06:45:05 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 151.2528ms.
+[06:45:05 INFORMATION] Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.TokenDto'.
+[06:45:05 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 175.2098ms
+[06:45:05 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:45:05 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 200 null application/json; charset=utf-8 198.4221ms
+[06:45:11 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/token/refresh - application/json null
+[06:45:11 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:45:11 INFORMATION] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(Shared.DataTransferObjects.TokenDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController (CompanyEmployees.Infrastructure.Presentation).
+[06:45:11 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:45:11 INFORMATION] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+[06:45:11 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation) in 31.8748ms
+[06:45:11 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.TokenController.Refresh (CompanyEmployees.Infrastructure.Presentation)'
+[06:45:11 ERROR] An unhandled exception has occurred while executing the request.
+[06:45:11 ERROR] Something went wrong: Invalid client request. The tokenDto has some invalid values.
+[06:45:11 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/token/refresh - 400 null application/problem+json 94.5562ms
+[06:45:29 INFORMATION] Application is shutting down...

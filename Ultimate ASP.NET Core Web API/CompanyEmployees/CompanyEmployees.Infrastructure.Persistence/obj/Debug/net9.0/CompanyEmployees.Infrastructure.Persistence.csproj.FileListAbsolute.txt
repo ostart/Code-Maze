@@ -1,0 +1,14 @@
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.deps.json
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\bin\Debug\net9.0\CompanyEmployees.Core.Domain.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\bin\Debug\net9.0\Shared.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\bin\Debug\net9.0\Shared.pdb
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.csproj.AssemblyReference.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.AssemblyInfoInputs.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.AssemblyInfo.cs
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyE.E0477890.Up2Date
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\refint\CompanyEmployees.Infrastructure.Persistence.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\ref\CompanyEmployees.Infrastructure.Persistence.dll

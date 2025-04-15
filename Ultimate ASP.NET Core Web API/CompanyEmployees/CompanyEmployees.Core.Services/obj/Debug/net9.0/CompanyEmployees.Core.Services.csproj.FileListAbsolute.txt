@@ -1,0 +1,17 @@
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\CompanyEmployees.Core.Services.deps.json
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\CompanyEmployees.Core.Services.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\CompanyEmployees.Core.Domain.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\CompanyEmployees.Core.Services.Abstractions.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\LoggingService.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\Shared.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\LoggingService.pdb
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\Shared.pdb
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\CompanyEmployees.Core.Services.csproj.AssemblyReference.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\CompanyEmployees.Core.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\CompanyEmployees.Core.Services.AssemblyInfoInputs.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\CompanyEmployees.Core.Services.AssemblyInfo.cs
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\CompanyEmployees.Core.Services.csproj.CoreCompileInputs.cache
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\CompanyE.BA7FBC1B.Up2Date
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\CompanyEmployees.Core.Services.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\refint\CompanyEmployees.Core.Services.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\ref\CompanyEmployees.Core.Services.dll

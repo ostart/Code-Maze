@@ -1,0 +1,57 @@
+[06:15:27 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[06:15:27 INFORMATION] Now listening on: https://localhost:5001
+[06:15:27 INFORMATION] Now listening on: http://localhost:5000
+[06:15:27 INFORMATION] Application started. Press Ctrl+C to shut down.
+[06:15:27 INFORMATION] Hosting environment: Development
+[06:15:27 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[06:15:32 INFORMATION] Request starting HTTP/1.1 PUT https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - application/json 72
+[06:15:32 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.UpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[06:15:32 INFORMATION] Route matched with {action = "UpdateEmployeeForCompany", controller = "Employees"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateEmployeeForCompany(System.Guid, System.Guid, Shared.DataTransferObjects.EmployeeForUpdateDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController (CompanyEmployees.Infrastructure.Presentation).
+[06:15:33 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.UpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:15:34 INFORMATION] Executed DbCommand (58ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[06:15:34 INFORMATION] Executed DbCommand (5ms) [Parameters=[@__companyId_0='?' (DbType = Guid), @__id_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [e].[EmployeeId], [e].[Age], [e].[CompanyId], [e].[Name], [e].[Position]
+FROM [Employees] AS [e]
+WHERE [e].[CompanyId] = @__companyId_0 AND [e].[EmployeeId] = @__id_1
+[06:15:35 INFORMATION] Executed DbCommand (7ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Employees] SET [Age] = @p0
+OUTPUT 1
+WHERE [EmployeeId] = @p1;
+[06:15:35 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.UpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 2113.2797ms.
+[06:15:35 INFORMATION] Executing StatusCodeResult, setting HTTP status code 204
+[06:15:35 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.UpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation) in 2556.9861ms
+[06:15:35 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.EmployeesController.UpdateEmployeeForCompany (CompanyEmployees.Infrastructure.Presentation)'
+[06:15:35 INFORMATION] Request finished HTTP/1.1 PUT https://localhost:5001/api/companies/C9D4C053-49B6-410C-BC78-2D54A9991870/employees/80ABBCA8-664D-4B20-B5DE-024705497D4A - 204 null null 2672.9816ms
+[06:19:50 INFORMATION] Application is shutting down...
+[06:32:35 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[06:32:35 INFORMATION] Now listening on: https://localhost:5001
+[06:32:35 INFORMATION] Now listening on: http://localhost:5000
+[06:32:35 INFORMATION] Application started. Press Ctrl+C to shut down.
+[06:32:35 INFORMATION] Hosting environment: Development
+[06:32:35 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[06:33:18 INFORMATION] Request starting HTTP/1.1 PUT https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - application/json 191
+[06:33:18 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.UpdateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[06:33:18 INFORMATION] Route matched with {action = "UpdateCompany", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCompany(System.Guid, Shared.DataTransferObjects.CompanyForUpdateDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[06:33:18 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.UpdateCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:33:20 INFORMATION] Executed DbCommand (48ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[06:33:20 INFORMATION] Executed DbCommand (6ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 60), @p2='?' (DbType = Guid), @p3='?' (DbType = Int32), @p4='?' (DbType = Guid), @p5='?' (Size = 30), @p6='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Companies] SET [Name] = @p0
+OUTPUT 1
+WHERE [CompanyId] = @p1;
+INSERT INTO [Employees] ([EmployeeId], [Age], [CompanyId], [Name], [Position])
+VALUES (@p2, @p3, @p4, @p5, @p6);
+[06:33:20 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.UpdateCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 2079.2388ms.
+[06:33:20 INFORMATION] Executing StatusCodeResult, setting HTTP status code 204
+[06:33:20 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.UpdateCompany (CompanyEmployees.Infrastructure.Presentation) in 2482.7866ms
+[06:33:20 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.UpdateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[06:33:20 INFORMATION] Request finished HTTP/1.1 PUT https://localhost:5001/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 204 null null 2575.3907ms
+[06:41:01 INFORMATION] Application is shutting down...

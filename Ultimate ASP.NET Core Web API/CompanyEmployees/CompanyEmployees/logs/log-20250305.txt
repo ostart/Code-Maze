@@ -1,0 +1,43 @@
+[06:43:50 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[06:43:51 INFORMATION] Now listening on: https://localhost:5001
+[06:43:51 INFORMATION] Now listening on: http://localhost:5000
+[06:43:51 INFORMATION] Application started. Press Ctrl+C to shut down.
+[06:43:51 INFORMATION] Hosting environment: Development
+[06:43:51 INFORMATION] Content root path: D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees
+[06:44:07 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api - null null
+[06:44:07 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation)'
+[06:44:07 INFORMATION] Route matched with {action = "GetRoot", controller = "Root"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetRoot(System.String) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.RootController (CompanyEmployees.Infrastructure.Presentation).
+[06:44:07 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:44:07 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10.8503ms.
+[06:44:08 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.LinkModels.Link, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[06:44:08 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation) in 100.5242ms
+[06:44:08 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation)'
+[06:44:08 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api - 200 null application/vnd.codemaze.apiroot+json; charset=utf-8 193.5708ms
+[06:44:26 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api - null null
+[06:44:26 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation)'
+[06:44:26 INFORMATION] Route matched with {action = "GetRoot", controller = "Root"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetRoot(System.String) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.RootController (CompanyEmployees.Infrastructure.Presentation).
+[06:44:26 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:44:26 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1747ms.
+[06:44:26 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.LinkModels.Link, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[06:44:26 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation) in 38.2574ms
+[06:44:26 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation)'
+[06:44:26 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api - 200 464 application/vnd.codemaze.apiroot+xml; charset=utf-8 53.0868ms
+[06:44:39 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api - null null
+[06:44:39 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation)'
+[06:44:39 INFORMATION] Route matched with {action = "GetRoot", controller = "Root"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetRoot(System.String) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.RootController (CompanyEmployees.Infrastructure.Presentation).
+[06:44:39 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:44:39 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 0.0284ms.
+[06:44:39 INFORMATION] Executing StatusCodeResult, setting HTTP status code 204
+[06:44:39 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation) in 8.7086ms
+[06:44:39 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation)'
+[06:44:39 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api - 204 null null 20.744ms
+[06:44:58 INFORMATION] Request starting HTTP/2 GET https://localhost:5001/api - null null
+[06:44:58 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation)'
+[06:44:58 INFORMATION] Route matched with {action = "GetRoot", controller = "Root"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetRoot(System.String) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.RootController (CompanyEmployees.Infrastructure.Presentation).
+[06:44:58 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:44:58 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1196ms.
+[06:44:58 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.LinkModels.Link, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[06:44:58 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation) in 5.8716ms
+[06:44:58 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.RootController.GetRoot (CompanyEmployees.Infrastructure.Presentation)'
+[06:44:58 INFORMATION] Request finished HTTP/2 GET https://localhost:5001/api - 200 null application/vnd.codemaze.apiroot+json; charset=utf-8 18.7037ms
+[06:47:49 INFORMATION] Application is shutting down...

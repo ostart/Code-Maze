@@ -1,0 +1,10 @@
+{
+  "CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Github\\Code-Maze\\Ultimate ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Core.Domain",
+  "CompanyEmployees.Core.Services.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Github\\Code-Maze\\Ultimate ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Core.Services.Abstractions",
+  "CompanyEmployees.Core.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Github\\Code-Maze\\Ultimate ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Core.Services",
+  "CompanyEmployees, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Github\\Code-Maze\\Ultimate ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees",
+  "CompanyEmployees.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Github\\Code-Maze\\Ultimate ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Infrastructure.Persistence",
+  "CompanyEmployees.Infrastructure.Presentation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Github\\Code-Maze\\Ultimate ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Infrastructure.Presentation",
+  "LoggingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Github\\Code-Maze\\Ultimate ASP.NET Core Web API\\CompanyEmployees\\LoggingService",
+  "Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Github\\Code-Maze\\Ultimate ASP.NET Core Web API\\CompanyEmployees\\Shared"
+}
