@@ -1,12 +1,9 @@
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\bin\Debug\net9.0\Shared.deps.json
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\bin\Debug\net9.0\Shared.dll
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\bin\Debug\net9.0\Shared.pdb
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.AssemblyInfoInputs.cache
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.AssemblyInfo.cs
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.csproj.CoreCompileInputs.cache
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.sourcelink.json
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.dll
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net9.0\refint\Shared.dll
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.pdb
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net9.0\ref\Shared.dll

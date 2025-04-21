@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+M5BTmz/0f8=",
+  "dgSpecHash": "jYHcq6eVyt0=",
   "success": true,
   "projectFilePath": "D:\\Github\\Code-Maze\\Ultimate ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Infrastructure.Persistence\\CompanyEmployees.Infrastructure.Persistence.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\yodmin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\yodmin\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\yodmin\\.nuget\\packages\\oneof\\3.0.271\\oneof.3.0.271.nupkg.sha512",
+    "C:\\Users\\yodmin\\.nuget\\packages\\oneof.sourcegenerator\\3.0.271\\oneof.sourcegenerator.3.0.271.nupkg.sha512",
     "C:\\Users\\yodmin\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\yodmin\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\yodmin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",

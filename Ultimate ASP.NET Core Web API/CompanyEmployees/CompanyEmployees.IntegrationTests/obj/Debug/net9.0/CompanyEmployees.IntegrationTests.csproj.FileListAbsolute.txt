@@ -562,15 +562,7 @@ D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmploy
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.dll
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\LoggingService.dll
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\Shared.dll
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\CompanyEmployees.pdb
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\CompanyEmployees.Core.Domain.pdb
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\CompanyEmployees.Core.Services.pdb
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\CompanyEmployees.Core.Services.Abstractions.pdb
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.pdb
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.pdb
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.xml
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\LoggingService.pdb
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\Shared.pdb
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\obj\Debug\net9.0\CompanyEmployees.IntegrationTests.csproj.AssemblyReference.cache
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\obj\Debug\net9.0\MvcTestingAppManifest.json
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\obj\Debug\net9.0\CompanyEmployees.IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
@@ -584,3 +576,4 @@ D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmploy
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\obj\Debug\net9.0\CompanyEmployees.IntegrationTests.pdb
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\obj\Debug\net9.0\CompanyEmployees.IntegrationTests.genruntimeconfig.cache
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\obj\Debug\net9.0\ref\CompanyEmployees.IntegrationTests.dll
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.IntegrationTests\bin\Debug\net9.0\OneOf.dll

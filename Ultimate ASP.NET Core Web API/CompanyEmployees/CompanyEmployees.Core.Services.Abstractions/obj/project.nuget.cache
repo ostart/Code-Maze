@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bXwFK9LWHSU=",
+  "dgSpecHash": "NCKYdRa7otc=",
   "success": true,
   "projectFilePath": "D:\\Github\\Code-Maze\\Ultimate ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Core.Services.Abstractions\\CompanyEmployees.Core.Services.Abstractions.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,9 @@
     "C:\\Users\\yodmin\\.nuget\\packages\\microsoft.extensions.logging\\9.0.0\\microsoft.extensions.logging.9.0.0.nupkg.sha512",
     "C:\\Users\\yodmin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0\\microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\yodmin\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\microsoft.extensions.options.9.0.0.nupkg.sha512",
-    "C:\\Users\\yodmin\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512"
+    "C:\\Users\\yodmin\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "C:\\Users\\yodmin\\.nuget\\packages\\oneof\\3.0.271\\oneof.3.0.271.nupkg.sha512",
+    "C:\\Users\\yodmin\\.nuget\\packages\\oneof.sourcegenerator\\3.0.271\\oneof.sourcegenerator.3.0.271.nupkg.sha512"
   ],
   "logs": []
 }

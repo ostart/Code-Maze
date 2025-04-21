@@ -11,7 +11,7 @@ namespace CompanyEmployees.Infrastructure.Presentation.Controllers;
 
 [Route("api/companies/{companyId}/employees")]
 [ApiController]
-public class EmployeesController : ControllerBase
+public class EmployeesController : ApiControllerBase
 {
     private readonly IServiceManager _service;
 
@@ -55,9 +55,13 @@ public class EmployeesController : ControllerBase
     [HttpDelete("{id:guid}")]
     public async Task<IActionResult> DeleteEmployeeForCompany(Guid companyId, Guid id, CancellationToken ct)
     {
-        await _service.EmployeeService.DeleteEmployeeForCompanyAsync(companyId, id, trackChanges: false, ct);
-
-        return NoContent();
+        var result = await _service.EmployeeService.DeleteEmployeeForCompanyAsync(companyId, id, trackChanges: false, ct);
+        
+        return result.Match(
+            success => NoContent(),
+            compNotFound => ProcessError(compNotFound),
+            empNotFound => ProcessError(empNotFound)
+        );
     }
 
     [HttpPut("{id:guid}")]
@@ -70,7 +74,7 @@ public class EmployeesController : ControllerBase
 
         return NoContent();
     }
-
+    
     [HttpPatch("{id:guid}")]
     public async Task<IActionResult> PartiallyUpdateEmployeeForCompany(Guid companyId, Guid id,
         [FromBody] JsonPatchDocument<EmployeeForUpdateDto> patchDoc, CancellationToken ct)
@@ -81,15 +85,23 @@ public class EmployeesController : ControllerBase
         var result = await _service.EmployeeService.GetEmployeeForPatchAsync(companyId, id,
             compTrackChanges: false, empTrackChanges: true, ct);
 
-        patchDoc.ApplyTo(result.employeeToPatch, ModelState);
+        return await result.Match(
+            async empTuple => 
+            {
+                patchDoc.ApplyTo(empTuple.employeeToPatch, ModelState);
 
-        TryValidateModel(result.employeeToPatch);
+                TryValidateModel(empTuple.employeeToPatch);
 
-        if (!ModelState.IsValid)
-            return UnprocessableEntity(ModelState);
+                if (!ModelState.IsValid)
+                    return UnprocessableEntity(ModelState);
 
-        await _service.EmployeeService.SaveChangesForPatchAsync(result.employeeToPatch, result.employeeEntity, ct);
+                await _service.EmployeeService.SaveChangesForPatchAsync(empTuple.employeeToPatch, 
+                    empTuple.employeeEntity!, ct);
 
-        return NoContent();
+                return NoContent();
+            },
+            async compNotFound => await Task.FromResult(ProcessError(compNotFound)),
+            async empNotFound => await Task.FromResult(ProcessError(empNotFound))
+        );
     }
 }

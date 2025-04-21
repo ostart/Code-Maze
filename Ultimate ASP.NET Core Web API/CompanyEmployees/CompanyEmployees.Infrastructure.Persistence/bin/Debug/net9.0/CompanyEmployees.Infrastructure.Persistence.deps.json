@@ -428,6 +428,15 @@
           }
         }
       },
+      "OneOf/3.0.271": {
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OneOf.SourceGenerator/3.0.271": {},
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -619,6 +628,8 @@
       "CompanyEmployees.Core.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.0",
+          "OneOf": "3.0.271",
+          "OneOf.SourceGenerator": "3.0.271",
           "Shared": "1.0.0"
         },
         "runtime": {
@@ -902,6 +913,20 @@
       "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "OneOf/3.0.271": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pqpqeK8xQGggExhr4tesVgJkjdn+9HQAO0QgrYV2hFjE3y90okzk1kQMntMiUOGfV7FrCUfKPaVvPBD4IANqKg==",
+      "path": "oneof/3.0.271",
+      "hashPath": "oneof.3.0.271.nupkg.sha512"
+    },
+    "OneOf.SourceGenerator/3.0.271": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I7e5kx5prSV99g+rM/xO5KMhwBQL/b+NlUY76RhbutXJ0tgiuMoqgOFnlTHOxCLrlKmwaMzp3VI8oz05PSlcIA==",
+      "path": "oneof.sourcegenerator/3.0.271",
+      "hashPath": "oneof.sourcegenerator.3.0.271.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

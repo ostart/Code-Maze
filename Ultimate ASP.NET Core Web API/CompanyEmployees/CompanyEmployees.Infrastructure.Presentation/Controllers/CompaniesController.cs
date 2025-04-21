@@ -1,4 +1,4 @@
-﻿using Asp.Versioning;
+﻿//using Asp.Versioning;
 using CompanyEmployees.Core.Services.Abstractions;
 using CompanyEmployees.Infrastructure.Presentation.ActionFilters;
 using CompanyEmployees.Infrastructure.Presentation.ModelBinders;
@@ -16,7 +16,7 @@ namespace CompanyEmployees.Infrastructure.Presentation.Controllers;
 //[ResponseCache(CacheProfileName = "120SecondsDuration")]
 [OutputCache(PolicyName = "120SecondsDuration")]
 [ApiExplorerSettings(GroupName = "v1")]
-public class CompaniesController : ControllerBase
+public class CompaniesController : ApiControllerBase
 {
     private readonly IServiceManager _service;
 
@@ -42,12 +42,15 @@ public class CompaniesController : ControllerBase
     [DisableRateLimiting]
     public async Task<IActionResult> GetCompany(Guid id, CancellationToken ct)
     {
-        var company = await _service.CompanyService.GetCompanyAsync(id, trackChanges: false, ct);
-
         var etag = $"\"{Guid.NewGuid():n}\"";
         HttpContext.Response.Headers.ETag = etag;
+        
+        var result = await _service.CompanyService.GetCompanyAsync(id, trackChanges: false, ct);
 
-        return Ok(company);
+        return result.Match<IActionResult>(
+            company => Ok(company),
+            error => ProcessError(error)
+        );
     }
     
     /// <summary>
@@ -91,18 +94,25 @@ public class CompaniesController : ControllerBase
     [HttpDelete("{id:guid}")]
     public async Task<IActionResult> DeleteCompany(Guid id, CancellationToken ct)
     {
-        await _service.CompanyService.DeleteCompanyAsync(id, trackChanges: false, ct);
+        var result = await _service.CompanyService.DeleteCompanyAsync(id, trackChanges: false, ct);
 
-        return NoContent();
+        return result.Match(
+            success => NoContent(),
+            error => ProcessError(error)
+        );
     }
-
+    
     [HttpPut("{id:guid}")]
     [ServiceFilter(typeof(ValidationFilterAttribute))]
-    public async Task<IActionResult> UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto company, CancellationToken ct)
+    public async Task<IActionResult> UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto company, 
+        CancellationToken ct)
     {
-        await _service.CompanyService.UpdateCompanyAsync(id, company, trackChanges: true, ct);
+        var result = await _service.CompanyService.UpdateCompanyAsync(id, company, trackChanges: true, ct);
 
-        return NoContent();
+        return result.Match(
+            success => NoContent(),
+            error => ProcessError(error)
+        );
     }
     
     [HttpOptions]

@@ -75,8 +75,6 @@ D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmploy
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.dll
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\LoggingService.dll
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Shared.dll
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\LoggingService.pdb
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Shared.pdb
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.csproj.AssemblyReference.cache
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.GeneratedMSBuildEditorConfig.editorconfig
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.AssemblyInfoInputs.cache
@@ -131,3 +129,4 @@ D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmploy
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.xml
+D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\OneOf.dll

@@ -1,7 +1,6 @@
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Domain\bin\Debug\net9.0\CompanyEmployees.Core.Domain.deps.json
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Domain\bin\Debug\net9.0\CompanyEmployees.Core.Domain.dll
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Domain\bin\Debug\net9.0\Shared.dll
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Domain\bin\Debug\net9.0\Shared.pdb
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyEmployees.Core.Domain.csproj.AssemblyReference.cache
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyEmployees.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyEmployees.Core.Domain.AssemblyInfoInputs.cache

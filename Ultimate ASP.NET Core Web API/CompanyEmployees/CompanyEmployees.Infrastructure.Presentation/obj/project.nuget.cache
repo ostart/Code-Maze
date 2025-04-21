@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "x14v51sL1gc=",
+  "dgSpecHash": "X2fLOGPZ+tw=",
   "success": true,
   "projectFilePath": "D:\\Github\\Code-Maze\\Ultimate ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Infrastructure.Presentation\\CompanyEmployees.Infrastructure.Presentation.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,9 @@
     "C:\\Users\\yodmin\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\microsoft.extensions.options.9.0.0.nupkg.sha512",
     "C:\\Users\\yodmin\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
     "C:\\Users\\yodmin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\yodmin\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    "C:\\Users\\yodmin\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\yodmin\\.nuget\\packages\\oneof\\3.0.271\\oneof.3.0.271.nupkg.sha512",
+    "C:\\Users\\yodmin\\.nuget\\packages\\oneof.sourcegenerator\\3.0.271\\oneof.sourcegenerator.3.0.271.nupkg.sha512"
   ],
   "logs": []
 }

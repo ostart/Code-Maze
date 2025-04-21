@@ -5,6 +5,10 @@ using CompanyEmployees.Core.Domain.Repositories;
 using CompanyEmployees.Core.Services.Abstractions;
 using LoggingService;
 using Shared.DataTransferObjects;
+using CompanyEmployees.Core.Domain.Responses;
+using OneOf;
+using OneOf.Types;
+using CompanyEmployees.Core.Services.Extensions;
 
 namespace CompanyEmployees.Core.Services;
 
@@ -29,16 +33,19 @@ internal sealed class CompanyService : ICompanyService
 
         return companiesDto;
     }
-
-    public async Task<CompanyDto> GetCompanyAsync(Guid id, bool trackChanges, CancellationToken ct = default)
+    
+    public async Task<OneOf<CompanyDto, CompanyNotFoundResponse>> GetCompanyAsync(Guid id, bool trackChanges, 
+        CancellationToken ct = default)
     {
-        var company = await GetCompanyAndCheckIfItExists(id, trackChanges, ct);
+        var (company, error) = await GetCompanyAndCheckIfItExists(id, trackChanges, ct);
+        if (error is not null) 
+            return error;
 
         var companyDto = _mapper.Map<CompanyDto>(company);
 
         return companyDto;
     }
-
+    
     public async Task<CompanyDto> CreateCompanyAsync(CompanyForCreationDto company, CancellationToken ct = default)
     {
         var companyEntity = _mapper.Map<Company>(company);
@@ -85,33 +92,39 @@ internal sealed class CompanyService : ICompanyService
 
         return (companies: companyCollectionToReturn, ids: ids);
     }
-
-
-    public async Task DeleteCompanyAsync(Guid companyId, bool trackChanges, CancellationToken ct = default)
+    
+    public async Task<OneOf<Success, CompanyNotFoundResponse>> DeleteCompanyAsync(Guid companyId, bool trackChanges, CancellationToken ct = default)
     {
-        var company = await GetCompanyAndCheckIfItExists(companyId, trackChanges, ct);
-
+        var (company, error) = await GetCompanyAndCheckIfItExists(companyId, trackChanges, ct);
+        if (error is not null) 
+            return error;
+        
         _repository.Company.DeleteCompany(company);
         
         await _repository.SaveAsync(ct);
-    }
-
-    public async Task UpdateCompanyAsync(Guid companyId, CompanyForUpdateDto companyForUpdate, 
-        bool trackChanges, CancellationToken ct = default)
-    {
-        var company = await GetCompanyAndCheckIfItExists(companyId, trackChanges, ct);
-
-        _mapper.Map(companyForUpdate, company);
         
-        await _repository.SaveAsync(ct);
+        return new Success();
     }
     
-    private async Task<Company> GetCompanyAndCheckIfItExists(Guid id, bool trackChanges, 
-        CancellationToken ct)
+    public async Task<OneOf<Success, CompanyNotFoundResponse>> UpdateCompanyAsync(Guid companyId, 
+        CompanyForUpdateDto companyForUpdate, bool trackChanges, CancellationToken ct = default)
+    {
+        var result = await GetCompanyAndCheckIfItExists(companyId, trackChanges, ct);
+        if (result.TryPickT1(out var error, out var company))
+            return error;
+
+        _mapper.Map(companyForUpdate, company);
+        await _repository.SaveAsync(ct);
+
+        return new Success();
+    }
+    
+    private async Task<OneOf<Company, CompanyNotFoundResponse>> GetCompanyAndCheckIfItExists(Guid id, 
+        bool trackChanges, CancellationToken ct)
     {
         var company = await _repository.Company.GetCompanyAsync(id, trackChanges, ct);
         if (company is null)
-            throw new CompanyNotFoundException(id);
+            return new CompanyNotFoundResponse(id);
 
         return company;
     }

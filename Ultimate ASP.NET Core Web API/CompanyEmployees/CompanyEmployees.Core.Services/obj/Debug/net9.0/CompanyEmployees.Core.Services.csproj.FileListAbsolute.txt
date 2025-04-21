@@ -4,8 +4,6 @@ D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmploy
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\CompanyEmployees.Core.Services.Abstractions.dll
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\LoggingService.dll
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\Shared.dll
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\LoggingService.pdb
-D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\bin\Debug\net9.0\Shared.pdb
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\CompanyEmployees.Core.Services.csproj.AssemblyReference.cache
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\CompanyEmployees.Core.Services.GeneratedMSBuildEditorConfig.editorconfig
 D:\Github\Code-Maze\Ultimate ASP.NET Core Web API\CompanyEmployees\CompanyEmployees.Core.Services\obj\Debug\net9.0\CompanyEmployees.Core.Services.AssemblyInfoInputs.cache
