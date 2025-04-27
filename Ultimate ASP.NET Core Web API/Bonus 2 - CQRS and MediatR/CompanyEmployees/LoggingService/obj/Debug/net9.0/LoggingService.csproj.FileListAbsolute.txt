@@ -1,0 +1,12 @@
+D:\Github\BONUS\CompanyEmployees\LoggingService\bin\Debug\net9.0\LoggingService.deps.json
+D:\Github\BONUS\CompanyEmployees\LoggingService\bin\Debug\net9.0\LoggingService.dll
+D:\Github\BONUS\CompanyEmployees\LoggingService\bin\Debug\net9.0\LoggingService.pdb
+D:\Github\BONUS\CompanyEmployees\LoggingService\obj\Debug\net9.0\LoggingService.csproj.AssemblyReference.cache
+D:\Github\BONUS\CompanyEmployees\LoggingService\obj\Debug\net9.0\LoggingService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\BONUS\CompanyEmployees\LoggingService\obj\Debug\net9.0\LoggingService.AssemblyInfoInputs.cache
+D:\Github\BONUS\CompanyEmployees\LoggingService\obj\Debug\net9.0\LoggingService.AssemblyInfo.cs
+D:\Github\BONUS\CompanyEmployees\LoggingService\obj\Debug\net9.0\LoggingService.csproj.CoreCompileInputs.cache
+D:\Github\BONUS\CompanyEmployees\LoggingService\obj\Debug\net9.0\LoggingService.dll
+D:\Github\BONUS\CompanyEmployees\LoggingService\obj\Debug\net9.0\refint\LoggingService.dll
+D:\Github\BONUS\CompanyEmployees\LoggingService\obj\Debug\net9.0\LoggingService.pdb
+D:\Github\BONUS\CompanyEmployees\LoggingService\obj\Debug\net9.0\ref\LoggingService.dll

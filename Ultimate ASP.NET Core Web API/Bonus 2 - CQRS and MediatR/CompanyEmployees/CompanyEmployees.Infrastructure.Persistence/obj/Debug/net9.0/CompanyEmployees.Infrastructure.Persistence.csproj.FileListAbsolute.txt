@@ -1,0 +1,15 @@
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.deps.json
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.dll
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.pdb
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\bin\Debug\net9.0\CompanyEmployees.Core.Domain.dll
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\bin\Debug\net9.0\CompanyEmployees.Core.Domain.pdb
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.csproj.AssemblyReference.cache
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.AssemblyInfoInputs.cache
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.AssemblyInfo.cs
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyE.E0477890.Up2Date
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.dll
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\refint\CompanyEmployees.Infrastructure.Persistence.dll
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.pdb
+D:\Github\BONUS\CompanyEmployees\CompanyEmployees.Infrastructure.Persistence\obj\Debug\net9.0\ref\CompanyEmployees.Infrastructure.Persistence.dll

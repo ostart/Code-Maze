@@ -14,6 +14,7 @@ public sealed class ServiceManager : IServiceManager
     private readonly Lazy<ICompanyService> _companyService;
     private readonly Lazy<IEmployeeService> _employeeService;
     private readonly Lazy<IAuthenticationService> _authenticationService;
+    private readonly Lazy<IClientService> _clientService;
 
     public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger, 
         IMapper mapper, IEmployeeLinks employeeLinks,
@@ -25,9 +26,11 @@ public sealed class ServiceManager : IServiceManager
             new EmployeeService(repositoryManager, logger, mapper, employeeLinks));
         _authenticationService = new Lazy<IAuthenticationService>(() =>
             new AuthenticationService(logger, mapper, userManager, configuration));
+        _clientService = new Lazy<IClientService>(() => new ClientService(repositoryManager, mapper));
     }
 
     public ICompanyService CompanyService => _companyService.Value;
     public IEmployeeService EmployeeService => _employeeService.Value;
     public IAuthenticationService AuthenticationService => _authenticationService.Value;
+    public IClientService ClientService => _clientService.Value;
 }

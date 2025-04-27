@@ -1,0 +1,11 @@
+D:\Github\BONUS\CompanyEmployees\Shared\bin\Debug\net9.0\Shared.deps.json
+D:\Github\BONUS\CompanyEmployees\Shared\bin\Debug\net9.0\Shared.dll
+D:\Github\BONUS\CompanyEmployees\Shared\bin\Debug\net9.0\Shared.pdb
+D:\Github\BONUS\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\BONUS\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.AssemblyInfoInputs.cache
+D:\Github\BONUS\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.AssemblyInfo.cs
+D:\Github\BONUS\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.csproj.CoreCompileInputs.cache
+D:\Github\BONUS\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.dll
+D:\Github\BONUS\CompanyEmployees\Shared\obj\Debug\net9.0\refint\Shared.dll
+D:\Github\BONUS\CompanyEmployees\Shared\obj\Debug\net9.0\Shared.pdb
+D:\Github\BONUS\CompanyEmployees\Shared\obj\Debug\net9.0\ref\Shared.dll

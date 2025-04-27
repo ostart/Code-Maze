@@ -1,0 +1,10 @@
+[08:33:08 INFORMATION] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[08:33:08 WARNING] The WebRootPath was not found: D:\Projects\ultimate-web-api-third-edition\39 - Bonus 2 - CQRS and MediatR\start\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[08:33:08 INFORMATION] Now listening on: https://localhost:5001
+[08:33:08 INFORMATION] Now listening on: http://localhost:5000
+[08:33:08 INFORMATION] Application started. Press Ctrl+C to shut down.
+[08:33:08 INFORMATION] Hosting environment: Development
+[08:33:08 INFORMATION] Content root path: D:\Projects\ultimate-web-api-third-edition\39 - Bonus 2 - CQRS and MediatR\start\CompanyEmployees\CompanyEmployees
+[08:33:17 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/api/companies - null null
+[08:33:17 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/api/companies - 404 0 null 22.1325ms
+[08:33:17 INFORMATION] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/api/companies, Response status code: 404

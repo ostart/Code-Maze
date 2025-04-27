@@ -1,0 +1,156 @@
+[06:41:35 WARNING] The WebRootPath was not found: D:\Github\BONUS\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[06:41:35 INFORMATION] Now listening on: https://localhost:5001
+[06:41:35 INFORMATION] Now listening on: http://localhost:5000
+[06:41:35 INFORMATION] Application started. Press Ctrl+C to shut down.
+[06:41:35 INFORMATION] Hosting environment: Development
+[06:41:35 INFORMATION] Content root path: D:\Github\BONUS\CompanyEmployees\CompanyEmployees
+[06:41:44 INFORMATION] Request starting HTTP/2 DELETE https://localhost:5001/api/companies/e06089af-baeb-44ef-1fdf-08d99630e212 - text/plain null
+[06:41:44 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.DeleteCompany (CompanyEmployees.Infrastructure.Presentation)'
+[06:41:44 INFORMATION] Route matched with {action = "DeleteCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCompany(System.Guid) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[06:41:44 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.DeleteCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:41:58 INFORMATION] Executed DbCommand (111ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[06:42:01 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.DeleteCompany (CompanyEmployees.Infrastructure.Presentation) in 17124.8541ms
+[06:42:01 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.DeleteCompany (CompanyEmployees.Infrastructure.Presentation)'
+[06:42:01 ERROR] An unhandled exception has occurred while executing the request.
+[06:42:01 ERROR] Something went wrong: The company with id: e06089af-baeb-44ef-1fdf-08d99630e212 doesn't exist in the database.
+[06:42:01 INFORMATION] Request finished HTTP/2 DELETE https://localhost:5001/api/companies/e06089af-baeb-44ef-1fdf-08d99630e212 - 404 null application/problem+json 17337.4803ms
+[06:42:26 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/companies - application/json null
+[06:42:26 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[06:42:26 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[06:42:26 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:42:33 INFORMATION] Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 60), @p2='?' (Size = 4000), @p3='?' (Size = 60)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Companies] ([CompanyId], [Address], [Country], [Name])
+VALUES (@p0, @p1, @p2, @p3);
+[06:42:35 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 8851.938ms.
+[06:42:35 INFORMATION] Executing CreatedAtRouteResult, writing value of type 'Shared.DataTransferObjects.CompanyDto'.
+[06:42:35 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 8969.974ms
+[06:42:35 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[06:42:35 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/companies - 201 null application/json; charset=utf-8 8992.6235ms
+[06:43:00 INFORMATION] Request starting HTTP/2 DELETE https://localhost:5001/api/companies/d5dfbe07-35f7-4f09-e697-08dd83ab35fe - text/plain null
+[06:43:00 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.DeleteCompany (CompanyEmployees.Infrastructure.Presentation)'
+[06:43:00 INFORMATION] Route matched with {action = "DeleteCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCompany(System.Guid) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[06:43:00 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.DeleteCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[06:43:05 INFORMATION] Executed DbCommand (28ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+[06:43:08 INFORMATION] Executed DbCommand (18ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Companies]
+OUTPUT 1
+WHERE [CompanyId] = @p0;
+[06:43:12 WARNING] Delete action for the company with id: d5dfbe07-35f7-4f09-e697-08dd83ab35fe has occurred.
+[06:43:14 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.DeleteCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 14522.5718ms.
+[06:43:14 INFORMATION] Executing StatusCodeResult, setting HTTP status code 204
+[06:43:14 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.DeleteCompany (CompanyEmployees.Infrastructure.Presentation) in 14543.0946ms
+[06:43:14 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.DeleteCompany (CompanyEmployees.Infrastructure.Presentation)'
+[06:43:14 INFORMATION] Request finished HTTP/2 DELETE https://localhost:5001/api/companies/d5dfbe07-35f7-4f09-e697-08dd83ab35fe - 204 null null 14555.6935ms
+[07:08:16 WARNING] The WebRootPath was not found: D:\Github\BONUS\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:08:16 INFORMATION] Now listening on: https://localhost:5001
+[07:08:16 INFORMATION] Now listening on: http://localhost:5000
+[07:08:16 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:08:16 INFORMATION] Hosting environment: Development
+[07:08:16 INFORMATION] Content root path: D:\Github\BONUS\CompanyEmployees\CompanyEmployees
+[07:08:30 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/companies - text/plain null
+[07:08:30 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:08:30 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:08:30 INFORMATION] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[07:08:30 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 74.9789ms
+[07:08:30 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:08:30 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/companies - 415 null application/problem+json; charset=utf-8 162.0273ms
+[07:08:43 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/companies - application/json null
+[07:08:43 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:08:43 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:08:43 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Invalid"
+[07:08:43 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 94.5081ms
+[07:08:43 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:08:43 ERROR] An unhandled exception has occurred while executing the request.
+[07:08:43 ERROR] Something went wrong: One or more validation errors occurred
+[07:08:43 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/companies - 422 null application/json; charset=utf-8 120.4806ms
+[07:10:33 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/companies - text/plain null
+[07:10:33 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:10:33 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:10:33 INFORMATION] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[07:10:33 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 2.0696ms
+[07:10:33 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:10:33 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/companies - 415 null application/problem+json; charset=utf-8 12.2565ms
+[07:10:42 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/companies - application/json null
+[07:10:42 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:10:42 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:10:42 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Invalid"
+[07:10:42 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.1445ms.
+[07:10:42 INFORMATION] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[07:10:42 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 15.0424ms
+[07:10:42 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:10:42 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/companies - 400 null application/json; charset=utf-8 28.4695ms
+[07:11:33 INFORMATION] Application is shutting down...
+[07:12:44 WARNING] The WebRootPath was not found: D:\Github\BONUS\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:12:44 INFORMATION] Now listening on: https://localhost:5001
+[07:12:44 INFORMATION] Now listening on: http://localhost:5000
+[07:12:44 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:12:44 INFORMATION] Hosting environment: Development
+[07:12:44 INFORMATION] Content root path: D:\Github\BONUS\CompanyEmployees\CompanyEmployees
+[07:14:07 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/companies - application/json null
+[07:14:07 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:14:07 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:14:07 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Invalid"
+[07:14:07 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 1.2668ms.
+[07:14:07 INFORMATION] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[07:14:07 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 88.5275ms
+[07:14:07 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:14:07 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/companies - 400 null application/json; charset=utf-8 164.4405ms
+[07:17:04 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/companies - application/json null
+[07:17:04 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:17:04 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:17:04 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Invalid"
+[07:17:04 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.0761ms.
+[07:17:04 INFORMATION] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[07:17:04 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 7.0776ms
+[07:17:04 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:17:04 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/companies - 400 null application/json; charset=utf-8 17.2774ms
+[07:17:18 INFORMATION] Application is shutting down...
+[07:18:26 WARNING] The WebRootPath was not found: D:\Github\BONUS\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:18:26 INFORMATION] Now listening on: https://localhost:5001
+[07:18:26 INFORMATION] Now listening on: http://localhost:5000
+[07:18:26 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:18:26 INFORMATION] Hosting environment: Development
+[07:18:26 INFORMATION] Content root path: D:\Github\BONUS\CompanyEmployees\CompanyEmployees
+[07:19:06 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/companies - application/json null
+[07:19:06 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:19:06 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:19:06 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Invalid"
+[07:19:11 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 4960.9738ms.
+[07:19:11 INFORMATION] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[07:19:11 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 5065.4464ms
+[07:19:11 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:19:11 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/companies - 400 null application/json; charset=utf-8 5152.4796ms
+[07:19:34 WARNING] The WebRootPath was not found: D:\Github\BONUS\CompanyEmployees\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:19:34 INFORMATION] Now listening on: https://localhost:5001
+[07:19:34 INFORMATION] Now listening on: http://localhost:5000
+[07:19:34 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:19:34 INFORMATION] Hosting environment: Development
+[07:19:34 INFORMATION] Content root path: D:\Github\BONUS\CompanyEmployees\CompanyEmployees
+[07:19:36 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/companies - application/json null
+[07:19:36 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:19:37 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:19:37 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Invalid"
+[07:19:46 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 9458.4065ms
+[07:19:46 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:19:46 ERROR] An unhandled exception has occurred while executing the request.
+[07:19:46 ERROR] Something went wrong: One or more validation errors occurred
+[07:19:46 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/companies - 422 null application/json; charset=utf-8 9609.4341ms
+[07:20:20 INFORMATION] Request starting HTTP/2 POST https://localhost:5001/api/companies - application/json null
+[07:20:20 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:20:20 INFORMATION] Route matched with {action = "CreateCompany", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:20:20 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Invalid"
+[07:20:26 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation) in 6324.5781ms
+[07:20:26 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.CreateCompany (CompanyEmployees.Infrastructure.Presentation)'
+[07:20:26 ERROR] An unhandled exception has occurred while executing the request.
+[07:20:26 ERROR] Something went wrong: One or more validation errors occurred
+[07:20:26 INFORMATION] Request finished HTTP/2 POST https://localhost:5001/api/companies - 422 null application/json; charset=utf-8 6340.3298ms

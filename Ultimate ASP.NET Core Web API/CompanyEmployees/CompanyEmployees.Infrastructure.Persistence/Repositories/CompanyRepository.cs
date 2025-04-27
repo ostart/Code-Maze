@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CompanyEmployees.Infrastructure.Persistence.Repositories;
 
-internal sealed class CompanyRepository : RepositoryBase<Company>, ICompanyRepository
+internal sealed class CompanyRepository : RepositoryBase<RepositoryContext, Company>, ICompanyRepository
 {
     public CompanyRepository(RepositoryContext repositoryContext)
         : base(repositoryContext)

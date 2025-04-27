@@ -6,7 +6,7 @@ using Shared.RequestFeatures;
 
 namespace CompanyEmployees.Infrastructure.Persistence.Repositories;
 
-internal sealed class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRepository
+internal sealed class EmployeeRepository : RepositoryBase<RepositoryContext, Employee>, IEmployeeRepository
 {
     public EmployeeRepository(RepositoryContext repositoryContext)
         : base(repositoryContext)
@@ -48,18 +48,18 @@ internal sealed class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRe
     public async Task DeleteEmployeeAsync(Company company, Employee employee, 
         CancellationToken ct = default)
     {
-        await using var transaction = await RepositoryContext.Database.BeginTransactionAsync(ct);
+        await using var transaction = await Context.Database.BeginTransactionAsync(ct);
 
         Delete(employee);
 
-        await RepositoryContext.SaveChangesAsync(ct);
+        await Context.SaveChangesAsync(ct);
 
         if (!FindByCondition(e => e.CompanyId == company.Id, false).Any())
         {
             //throw new InvalidOperationException("FindByCondition failed");
-            RepositoryContext.Companies!.Remove(company);
+            Context.Companies!.Remove(company);
 
-            await RepositoryContext.SaveChangesAsync(ct);
+            await Context.SaveChangesAsync(ct);
         }
 
         await transaction.CommitAsync(ct);
