@@ -1,0 +1,31 @@
+/home/app/CompanyEmployees.Core.Domain/bin/Debug/net9.0/CompanyEmployees.Core.Domain.deps.json
+/home/app/CompanyEmployees.Core.Domain/bin/Debug/net9.0/CompanyEmployees.Core.Domain.dll
+/home/app/CompanyEmployees.Core.Domain/bin/Debug/net9.0/CompanyEmployees.Core.Domain.pdb
+/home/app/CompanyEmployees.Core.Domain/bin/Debug/net9.0/Shared.dll
+/home/app/CompanyEmployees.Core.Domain/bin/Debug/net9.0/Shared.pdb
+/home/app/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.csproj.AssemblyReference.cache
+/home/app/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/app/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.AssemblyInfoInputs.cache
+/home/app/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.AssemblyInfo.cs
+/home/app/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.csproj.CoreCompileInputs.cache
+/home/app/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyE.19833C3E.Up2Date
+/home/app/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.dll
+/home/app/CompanyEmployees.Core.Domain/obj/Debug/net9.0/refint/CompanyEmployees.Core.Domain.dll
+/home/app/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.pdb
+/home/app/CompanyEmployees.Core.Domain/obj/Debug/net9.0/ref/CompanyEmployees.Core.Domain.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\bin\Debug\net9.0\CompanyEmployees.Core.Domain.deps.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\bin\Debug\net9.0\CompanyEmployees.Core.Domain.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\bin\Debug\net9.0\CompanyEmployees.Core.Domain.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\bin\Debug\net9.0\Shared.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\bin\Debug\net9.0\Shared.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyEmployees.Core.Domain.csproj.AssemblyReference.cache
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyEmployees.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyEmployees.Core.Domain.AssemblyInfoInputs.cache
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyEmployees.Core.Domain.AssemblyInfo.cs
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyEmployees.Core.Domain.csproj.CoreCompileInputs.cache
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyEmployees.Core.Domain.sourcelink.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyE.19833C3E.Up2Date
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyEmployees.Core.Domain.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\refint\CompanyEmployees.Core.Domain.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\CompanyEmployees.Core.Domain.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Core.Domain\obj\Debug\net9.0\ref\CompanyEmployees.Core.Domain.dll

@@ -1,0 +1,877 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.IntegrationTests\\CompanyEmployees.IntegrationTests.csproj": {}
+  },
+  "projects": {
+    "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Domain\\CompanyEmployees.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Domain\\CompanyEmployees.Core.Domain.csproj",
+        "projectName": "CompanyEmployees.Core.Domain",
+        "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Domain\\CompanyEmployees.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\yodmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yodmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services.Abstractions\\CompanyEmployees.Core.Services.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services.Abstractions\\CompanyEmployees.Core.Services.Abstractions.csproj",
+        "projectName": "CompanyEmployees.Core.Services.Abstractions",
+        "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services.Abstractions\\CompanyEmployees.Core.Services.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\yodmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yodmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Domain\\CompanyEmployees.Core.Domain.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Domain\\CompanyEmployees.Core.Domain.csproj"
+              },
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services\\CompanyEmployees.Core.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services\\CompanyEmployees.Core.Services.csproj",
+        "projectName": "CompanyEmployees.Core.Services",
+        "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services\\CompanyEmployees.Core.Services.csproj",
+        "packagesPath": "C:\\Users\\yodmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yodmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Domain\\CompanyEmployees.Core.Domain.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Domain\\CompanyEmployees.Core.Domain.csproj"
+              },
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services.Abstractions\\CompanyEmployees.Core.Services.Abstractions.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services.Abstractions\\CompanyEmployees.Core.Services.Abstractions.csproj"
+              },
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\LoggingService\\LoggingService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Persistence\\CompanyEmployees.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Persistence\\CompanyEmployees.Infrastructure.Persistence.csproj",
+        "projectName": "CompanyEmployees.Infrastructure.Persistence",
+        "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Persistence\\CompanyEmployees.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\yodmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yodmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Domain\\CompanyEmployees.Core.Domain.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Domain\\CompanyEmployees.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.4.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Presentation\\CompanyEmployees.Infrastructure.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Presentation\\CompanyEmployees.Infrastructure.Presentation.csproj",
+        "projectName": "CompanyEmployees.Infrastructure.Presentation",
+        "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Presentation\\CompanyEmployees.Infrastructure.Presentation.csproj",
+        "packagesPath": "C:\\Users\\yodmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yodmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services.Abstractions\\CompanyEmployees.Core.Services.Abstractions.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services.Abstractions\\CompanyEmployees.Core.Services.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.IntegrationTests\\CompanyEmployees.IntegrationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.IntegrationTests\\CompanyEmployees.IntegrationTests.csproj",
+        "projectName": "CompanyEmployees.IntegrationTests",
+        "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.IntegrationTests\\CompanyEmployees.IntegrationTests.csproj",
+        "packagesPath": "C:\\Users\\yodmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.IntegrationTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yodmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "Testcontainers": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Testcontainers.MsSql": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-pre.49, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
+        "projectName": "CompanyEmployees",
+        "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
+        "packagesPath": "C:\\Users\\yodmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yodmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services\\CompanyEmployees.Core.Services.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Core.Services\\CompanyEmployees.Core.Services.csproj"
+              },
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Persistence\\CompanyEmployees.Infrastructure.Persistence.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Persistence\\CompanyEmployees.Infrastructure.Persistence.csproj"
+              },
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Presentation\\CompanyEmployees.Infrastructure.Presentation.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\CompanyEmployees.Infrastructure.Presentation\\CompanyEmployees.Infrastructure.Presentation.csproj"
+              },
+              "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\LoggingService\\LoggingService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\LoggingService\\LoggingService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\LoggingService\\LoggingService.csproj",
+        "projectName": "LoggingService",
+        "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\LoggingService\\LoggingService.csproj",
+        "packagesPath": "C:\\Users\\yodmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\LoggingService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yodmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\yodmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Code-Maze\\Dockerizing ASP.NET Core Applications\\CompanyEmployees\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yodmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

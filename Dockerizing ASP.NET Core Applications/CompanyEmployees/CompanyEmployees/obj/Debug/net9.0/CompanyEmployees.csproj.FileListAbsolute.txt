@@ -1,0 +1,414 @@
+/home/app/CompanyEmployees/bin/Debug/net9.0/appsettings.Development.json
+/home/app/CompanyEmployees/bin/Debug/net9.0/appsettings.json
+/home/app/CompanyEmployees/bin/Debug/net9.0/appsettings.Production.json
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.staticwebassets.endpoints.json
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.deps.json
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.runtimeconfig.json
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.pdb
+/home/app/CompanyEmployees/bin/Debug/net9.0/Asp.Versioning.Abstractions.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Asp.Versioning.Http.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Asp.Versioning.Mvc.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/HealthChecks.SqlServer.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/HealthChecks.UI.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/HealthChecks.UI.Client.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/HealthChecks.UI.Core.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/HealthChecks.UI.Data.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/HealthChecks.UI.InMemory.Storage.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/AutoMapper.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Azure.Core.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Azure.Identity.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Fractions.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Humanizer.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/IdentityModel.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/IdentityModel.OidcClient.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/KubernetesClient.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.AspNetCore.JsonPatch.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.Bcl.TimeProvider.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Mono.TextTemplating.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Newtonsoft.Json.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Newtonsoft.Json.Bson.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Serilog.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Serilog.AspNetCore.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Serilog.Extensions.Hosting.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Serilog.Extensions.Logging.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Serilog.Formatting.Compact.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Serilog.Settings.Configuration.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Serilog.Sinks.Console.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Serilog.Sinks.Debug.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Serilog.Sinks.File.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Serilog.Sinks.Seq.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.CodeDom.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.Composition.Convention.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.Composition.Hosting.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.Composition.Runtime.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.Linq.Dynamic.Core.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.Memory.Data.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.Runtime.Caching.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/YamlDotNet.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/de/Microsoft.Data.SqlClient.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/es/Microsoft.Data.SqlClient.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/fr/Microsoft.Data.SqlClient.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/it/Microsoft.Data.SqlClient.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ja/Microsoft.Data.SqlClient.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ko/Microsoft.Data.SqlClient.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/ru/Microsoft.Data.SqlClient.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Runtime.Caching.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.Core.Domain.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.Core.Services.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/LoggingService.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/Shared.dll
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.Core.Services.pdb
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.pdb
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.pdb
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.xml
+/home/app/CompanyEmployees/bin/Debug/net9.0/LoggingService.pdb
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.Core.Domain.pdb
+/home/app/CompanyEmployees/bin/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.pdb
+/home/app/CompanyEmployees/bin/Debug/net9.0/Shared.pdb
+/home/app/CompanyEmployees/obj/Debug/net9.0/CompanyEmployees.csproj.AssemblyReference.cache
+/home/app/CompanyEmployees/obj/Debug/net9.0/CompanyEmployees.GeneratedMSBuildEditorConfig.editorconfig
+/home/app/CompanyEmployees/obj/Debug/net9.0/CompanyEmployees.AssemblyInfoInputs.cache
+/home/app/CompanyEmployees/obj/Debug/net9.0/CompanyEmployees.AssemblyInfo.cs
+/home/app/CompanyEmployees/obj/Debug/net9.0/CompanyEmployees.csproj.CoreCompileInputs.cache
+/home/app/CompanyEmployees/obj/Debug/net9.0/CompanyEmployees.MvcApplicationPartsAssemblyInfo.cs
+/home/app/CompanyEmployees/obj/Debug/net9.0/CompanyEmployees.MvcApplicationPartsAssemblyInfo.cache
+/home/app/CompanyEmployees/obj/Debug/net9.0/scopedcss/bundle/CompanyEmployees.styles.css
+/home/app/CompanyEmployees/obj/Debug/net9.0/staticwebassets.build.json
+/home/app/CompanyEmployees/obj/Debug/net9.0/staticwebassets.development.json
+/home/app/CompanyEmployees/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/home/app/CompanyEmployees/obj/Debug/net9.0/staticwebassets/msbuild.CompanyEmployees.Microsoft.AspNetCore.StaticWebAssets.props
+/home/app/CompanyEmployees/obj/Debug/net9.0/staticwebassets/msbuild.CompanyEmployees.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/home/app/CompanyEmployees/obj/Debug/net9.0/staticwebassets/msbuild.build.CompanyEmployees.props
+/home/app/CompanyEmployees/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.CompanyEmployees.props
+/home/app/CompanyEmployees/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.CompanyEmployees.props
+/home/app/CompanyEmployees/obj/Debug/net9.0/staticwebassets.pack.json
+/home/app/CompanyEmployees/obj/Debug/net9.0/CompanyE.34C766B8.Up2Date
+/home/app/CompanyEmployees/obj/Debug/net9.0/CompanyEmployees.dll
+/home/app/CompanyEmployees/obj/Debug/net9.0/refint/CompanyEmployees.dll
+/home/app/CompanyEmployees/obj/Debug/net9.0/CompanyEmployees.pdb
+/home/app/CompanyEmployees/obj/Debug/net9.0/CompanyEmployees.genruntimeconfig.cache
+/home/app/CompanyEmployees/obj/Debug/net9.0/ref/CompanyEmployees.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.xml
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Presentation.xml
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\appsettings.Development.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\appsettings.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\appsettings.Production.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.staticwebassets.endpoints.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.exe
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.deps.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.runtimeconfig.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Asp.Versioning.Abstractions.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Asp.Versioning.Http.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Asp.Versioning.Mvc.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\HealthChecks.SqlServer.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\HealthChecks.UI.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\HealthChecks.UI.Client.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\HealthChecks.UI.Core.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\HealthChecks.UI.Data.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\HealthChecks.UI.InMemory.Storage.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\AutoMapper.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Azure.Core.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Azure.Identity.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Fractions.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Humanizer.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\IdentityModel.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\IdentityModel.OidcClient.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\KubernetesClient.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.Bcl.TimeProvider.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Serilog.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Serilog.AspNetCore.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Serilog.Sinks.File.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Serilog.Sinks.Seq.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.CodeDom.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.Linq.Dynamic.Core.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\YamlDotNet.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Core.Domain.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Core.Services.Abstractions.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Core.Services.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\LoggingService.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Shared.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Core.Services.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Persistence.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\LoggingService.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Core.Domain.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\CompanyEmployees.Core.Services.Abstractions.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Shared.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.csproj.AssemblyReference.cache
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.AssemblyInfoInputs.cache
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.AssemblyInfo.cs
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.csproj.CoreCompileInputs.cache
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cs
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cache
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.sourcelink.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\scopedcss\bundle\CompanyEmployees.styles.css
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\staticwebassets.build.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\staticwebassets.development.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\staticwebassets\msbuild.CompanyEmployees.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\staticwebassets\msbuild.CompanyEmployees.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\staticwebassets\msbuild.build.CompanyEmployees.props
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.CompanyEmployees.props
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.CompanyEmployees.props
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\staticwebassets.pack.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyE.34C766B8.Up2Date
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\refint\CompanyEmployees.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.genruntimeconfig.cache
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\ref\CompanyEmployees.dll

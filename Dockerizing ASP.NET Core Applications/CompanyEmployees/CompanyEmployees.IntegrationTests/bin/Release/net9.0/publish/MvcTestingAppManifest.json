@@ -1,0 +1,10 @@
+{
+  "CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~",
+  "CompanyEmployees.Core.Services.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~",
+  "CompanyEmployees.Core.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~",
+  "CompanyEmployees, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~",
+  "CompanyEmployees.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~",
+  "CompanyEmployees.Infrastructure.Presentation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~",
+  "LoggingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~",
+  "Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "~"
+}

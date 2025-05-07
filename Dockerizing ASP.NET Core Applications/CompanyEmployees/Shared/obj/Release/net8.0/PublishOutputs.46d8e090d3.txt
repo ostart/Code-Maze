@@ -1,0 +1,3 @@
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\Shared\bin\Release\net8.0\publish\Shared.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\Shared\bin\Release\net8.0\publish\Shared.deps.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\Shared\bin\Release\net8.0\publish\Shared.pdb

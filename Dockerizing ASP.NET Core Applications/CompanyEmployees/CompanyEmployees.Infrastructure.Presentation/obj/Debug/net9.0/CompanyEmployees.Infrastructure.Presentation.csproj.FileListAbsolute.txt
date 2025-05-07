@@ -1,0 +1,42 @@
+/home/app/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.deps.json
+/home/app/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.dll
+/home/app/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.pdb
+/home/app/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.xml
+/home/app/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Core.Domain.dll
+/home/app/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.dll
+/home/app/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/Shared.dll
+/home/app/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.pdb
+/home/app/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Core.Domain.pdb
+/home/app/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/Shared.pdb
+/home/app/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.csproj.AssemblyReference.cache
+/home/app/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/home/app/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.AssemblyInfoInputs.cache
+/home/app/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.AssemblyInfo.cs
+/home/app/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.csproj.CoreCompileInputs.cache
+/home/app/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyE.D134BD47.Up2Date
+/home/app/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.dll
+/home/app/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/refint/CompanyEmployees.Infrastructure.Presentation.dll
+/home/app/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.pdb
+/home/app/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/ref/CompanyEmployees.Infrastructure.Presentation.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.xml
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Debug\net9.0\CompanyEmployees.Presentation.xml
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.deps.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Debug\net9.0\CompanyEmployees.Core.Domain.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Debug\net9.0\CompanyEmployees.Core.Services.Abstractions.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Debug\net9.0\Shared.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Debug\net9.0\CompanyEmployees.Core.Services.Abstractions.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Debug\net9.0\CompanyEmployees.Core.Domain.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\bin\Debug\net9.0\Shared.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.csproj.AssemblyReference.cache
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.AssemblyInfoInputs.cache
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.AssemblyInfo.cs
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.csproj.CoreCompileInputs.cache
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.sourcelink.json
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Debug\net9.0\CompanyE.D134BD47.Up2Date
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Debug\net9.0\refint\CompanyEmployees.Infrastructure.Presentation.dll
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Debug\net9.0\CompanyEmployees.Infrastructure.Presentation.pdb
+D:\Github\Code-Maze\Dockerizing ASP.NET Core Applications\CompanyEmployees\CompanyEmployees.Infrastructure.Presentation\obj\Debug\net9.0\ref\CompanyEmployees.Infrastructure.Presentation.dll
