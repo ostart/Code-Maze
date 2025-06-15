@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4aghF43hAU4DY572TJSaAETc7Z0K1fSqDlGX/eJ/0SQ=",
+  "Source": "CompanyEmployees.IDP",
+  "BasePath": "_content/CompanyEmployees.IDP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

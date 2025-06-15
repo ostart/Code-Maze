@@ -1,0 +1,24 @@
+[20:19:46 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[20:19:46 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Mastering ASP.NET Core Security\CompanyEmployees.API\CompanyEmployees\wwwroot. Static files may be unavailable.
+[20:19:47 INFORMATION] Now listening on: https://localhost:5001
+[20:19:47 INFORMATION] Now listening on: http://localhost:5000
+[20:19:47 INFORMATION] Application started. Press Ctrl+C to shut down.
+[20:19:47 INFORMATION] Hosting environment: Development
+[20:19:47 INFORMATION] Content root path: D:\Github\Code-Maze\Mastering ASP.NET Core Security\CompanyEmployees.API\CompanyEmployees
+[20:22:21 INFORMATION] Application is shutting down...
+[20:23:07 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[20:23:07 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Mastering ASP.NET Core Security\CompanyEmployees.API\CompanyEmployees\wwwroot. Static files may be unavailable.
+[20:23:08 INFORMATION] Now listening on: https://localhost:5001
+[20:23:08 INFORMATION] Now listening on: http://localhost:5000
+[20:23:08 INFORMATION] Application started. Press Ctrl+C to shut down.
+[20:23:08 INFORMATION] Hosting environment: Development
+[20:23:08 INFORMATION] Content root path: D:\Github\Code-Maze\Mastering ASP.NET Core Security\CompanyEmployees.API\CompanyEmployees
+[20:26:07 INFORMATION] Application is shutting down...
+[20:32:05 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[20:32:05 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Mastering ASP.NET Core Security\CompanyEmployees.API\CompanyEmployees\wwwroot. Static files may be unavailable.
+[20:32:06 INFORMATION] Now listening on: https://localhost:5001
+[20:32:06 INFORMATION] Now listening on: http://localhost:5000
+[20:32:06 INFORMATION] Application started. Press Ctrl+C to shut down.
+[20:32:06 INFORMATION] Hosting environment: Development
+[20:32:06 INFORMATION] Content root path: D:\Github\Code-Maze\Mastering ASP.NET Core Security\CompanyEmployees.API\CompanyEmployees
+[20:40:42 INFORMATION] Application is shutting down...

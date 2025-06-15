@@ -1,0 +1,21 @@
+[07:03:45 INFORMATION] User profile is available. Using 'C:\Users\yodmin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[07:03:46 WARNING] The WebRootPath was not found: D:\Github\Code-Maze\Mastering ASP.NET Core Security\CompanyEmployees.API\CompanyEmployees\wwwroot. Static files may be unavailable.
+[07:03:46 INFORMATION] Now listening on: https://localhost:5001
+[07:03:46 INFORMATION] Now listening on: http://localhost:5000
+[07:03:46 INFORMATION] Application started. Press Ctrl+C to shut down.
+[07:03:46 INFORMATION] Hosting environment: Development
+[07:03:46 INFORMATION] Content root path: D:\Github\Code-Maze\Mastering ASP.NET Core Security\CompanyEmployees.API\CompanyEmployees
+[07:06:13 INFORMATION] Request starting HTTP/1.1 GET https://localhost:5001/api/companies - null null
+[07:06:13 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[07:06:13 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompanies(System.Threading.CancellationToken) on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[07:06:14 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[07:06:16 INFORMATION] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[07:06:16 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2210.331ms.
+[07:06:16 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[07:06:16 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 2695.111ms
+[07:06:16 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[07:06:16 INFORMATION] Request finished HTTP/1.1 GET https://localhost:5001/api/companies - 200 null application/json; charset=utf-8 3070.9754ms
+[07:06:47 INFORMATION] Application is shutting down...
